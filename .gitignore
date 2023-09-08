@@ -1,5 +1,33 @@
-node_modules/
-npm-debug.log
-yarn-error.log
-android/*
-ios/*
+# Dependency directories
+/node_modules
+/yarn-error.log
+
+# macOS-specific files
+.DS_Store
+
+# Android build output
+/android/app/build
+
+# Android Gradle files
+/android/.gradle
+/.gradle
+
+# iOS build output
+/ios/build
+/ios/Pods
+
+# Android Studio
+/.idea
+
+# Visual Studio Code
+.vscode
+
+# Node.js logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# User-specific files
+/.npmrc
+/.yarnrc
+/.yarn
