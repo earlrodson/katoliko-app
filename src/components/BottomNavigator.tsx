@@ -28,6 +28,59 @@ const BottomNavigator = () => {
     // navigation.goBack();
     alert(1);
   };
+  const renderIcon = ({ route, focused, color }) => {
+    let borderTopWidth = 0;
+    let borderTopColor = 'transparent';
+  
+    if (focused) {
+      // If the route is focused, apply the border styles
+      borderTopWidth = 2; // Adjust the border width as needed
+      borderTopColor = '#007AFF'; // Border color for the selected menu
+  
+      // Handle the "motherMary" route differently with the custom logo
+      if (route.key === 'motherMary') {
+        return (
+          <View style={styles.customIconContainer}>
+            <Image
+              source={route.customIcon}
+              style={[
+                styles.customIcon,
+                {
+                  tintColor: color,
+                  borderTopWidth: borderTopWidth, // Apply the top border width
+                  borderTopColor: borderTopColor, // Apply the top border color
+                },
+              ]}
+            />
+            <Text
+              style={[
+                styles.customIconText,
+                {
+                  color: '#0097a7',
+                },
+              ]}
+            >
+              {route.title}
+            </Text>
+          </View>
+        );
+      }
+    }
+  
+    return (
+      <Icon
+        name={focused ? route.focusedIcon || 'cross' : route.unfocusedIcon || 'cross'}
+        size={focused ? 24 : 20}
+        color={focused ? '#0097a7' : '#455a64'}
+        style={{
+          borderTopWidth: borderTopWidth, // Apply the top border width
+          borderTopColor: borderTopColor, // Apply the top border color
+        }}
+      />
+    );
+  };
+  
+
 
   return (
     <View style={{ flex: 1 }}>

@@ -1,5 +1,5 @@
 import { FlatList, View } from "react-native";
-import { List } from "react-native-paper";
+import { Divider, List } from "react-native-paper";
 import catholicPrayers from "../data/prayers";
 import { useNavigation } from "@react-navigation/native";
 
@@ -11,10 +11,13 @@ const PrayerPage = () => {
       };
       
     const renderPrayerItem = ({ item }: { item: { name: string } }) => (
-        <List.Item
-            title={item.name}
-            onPress={() => handleItemClick(item)}
-        />
+        <>
+            <List.Item
+                title={item.name}
+                onPress={() => handleItemClick(item)}
+            />
+            <Divider />
+        </>
     );
 
     return (

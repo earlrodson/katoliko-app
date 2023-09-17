@@ -3,13 +3,13 @@ import { View, Text, StyleSheet } from 'react-native';
 import LottieView from 'lottie-react-native'; // Import LottieView
 import LinearGradient from 'react-native-linear-gradient';
 
-const SplashScreen = ({ navigation }) => {
+const SplashScreen = ({ navigation }: any) => {
   useEffect(() => {
     // Simulate a delay for the splash screen (e.g., 2 seconds)
     setTimeout(() => {
       // Navigate to your main screen (e.g., BottomNavigator)
       navigation.navigate('KatolikoApp');
-    }, 2000);
+    }, 2500);
   }, []);
 
   return (
@@ -22,12 +22,12 @@ const SplashScreen = ({ navigation }) => {
       <View style={styles.content}>
         {/* Use LottieView to display the animation */}
         <LottieView
-        source={require('../assets/splash-mama-mary-animation.gif')}// Replace with your JSON animation file
+        source={require('../assets/splash-mama-mary-animation.json')}// Replace with your JSON animation file
           autoPlay // Start animation automatically
           loop // Loop the animation
           style={styles.logo}
         />
-        <Text style={styles.text}>Initializing...</Text>
+        <Text style={styles.text}>Behold your mother...</Text>
       </View>
     </LinearGradient>
   );

@@ -11,7 +11,16 @@ const catholicPrayers = [
     },
     {
         name: "Luwalhati Sa Diyos (Glory Be / Doxology)",
-        content: "Luwalhati sa Diyos Ama, sa Anak, at sa Espiritu Santo. Gaya noong unang-una, gayon pa rin ngayon, magpakailanman. Amen.",
+        content: `
+Luwalhati sa Ama,
+at sa Anak,
+at sa Espiritu Santo,
+kapara noong unang-una,
+ngayon,
+at magpakailanman,
+at magpasawalang hanggan.
+Amen.
+`,
         image: require('../assets/bg/prayer-14.webp')
     },
     {
