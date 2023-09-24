@@ -135,7 +135,282 @@ Ipanalangin mo kami, O Santa Ina ng Diyos.
 
 (Note: Ito ay ang tradisyonal na bersyon ng dasal na Angelus sa Tagalog. Maaaring mayroong mga kaunting pagkakaiba-iba sa mga bersyon ng dasal depende sa rehiyon.)`,
 image: require('../assets/bg/prayer-17.jpg')
-    }
+    },
+    {
+        name: `The Saint Michael Prayer`,
+        content: `"San Miguel Arkanghel,
+tanggihan mo kami sa laban.
+Ipagkaloob mo ang iyong proteksyon laban sa kasamaan at silo ng diyablo.
+Nawa'y sawayin ka ng Diyos, aming maamo naming hinihiling;
+at ikaw, O Prinsipe ng Mga Langit na Kawal,
+sa pamamagitan ng kapangyarihan ng Diyos, itapon mo sa impyerno
+si Satanas at lahat ng masasamang espiritu
+na umaaligid-aligid sa mundo upang hanapin ang pagkawasak ng mga kaluluwa. 
+
+Amen."`,
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+        name: `The Saint Gabriel the Archangel Prayer`,
+        content: `"O Mapalad na Arkanghel Gabriel, aming inuukit sa iyo,
+ipanalangin mo kami sa harap ng Banal na Awa
+sa mga pangangailangan namin sa kasalukuyan,
+na gaya ng iyong pagsasalaysay kay Maria
+ng hiwaga ng Inkarnasyon,
+nawa'y sa pamamagitan ng iyong mga panalangin
+at patrois sa kalangitan
+maipagkaloob namin ang mga biyaya ng ganap,
+at awitan ang papuri ng Diyos magpakailanman sa lupain ng mga buhay.
+
+Amen."`,
+
+ image: require('../assets/bg/prayer-16.jpg')
+    },
+    {
+        name: ` The Saint Raphael Prayer`,
+        content: `"O Mapalad na San Rafael,
+ang Arkanghel, aming inuukit sa iyo
+na tulungan kami sa aming mga pangangailangan.
+Iyong itinampok ang paningin
+ni Tobias, ang anak ni Tobit,
+at itinuro mo siya nang ligtas
+sa kanyang paglalakbay sa lupa,
+amin hinihiling na tulungan mo kami
+sa ganitong paraan,
+sa aming paglalakbay sa buhay.
+Aming idinadalangin ang iyong patnubay at proteksyon,
+na kami'y makarating sa aming paroroonan
+sa kapayapaan at kaligtasan.
+O pinakamatyaga, pinakamahal na Arkanghel,
+maging aming gabay sa daan ng buhay,
+upang kami'y makarating sa aming kalangitang tahanan
+nang ligtas at kasama ka
+kasama ng mga Banal at mga Santa.
+
+Amen."`,
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+        name: `The Guardian Angel Prayer`,
+        content: `"Anghel ng Diyos, aking kalakal na tagapamahala,
+Sa kanya ng Diyos pagkatiwalaan ako rito,
+Sa araw na ito't magpakailanman, nawa'y lagi kang nasa aking tabi,
+Upang magbigay-liwanag at magbantay, mamuno at gumabay. Amen."`,
+
+image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+        name: `The Saint Joseph prayer`,
+        content: `"O San Jose, mapagkakatiwalaang amahan,
+Ako'y lumalapit sa iyo at nagmamakaawa,
+Tulungan mo po ako sa lahat ng aking mga pangangailangan,
+Lalo na sa aking mga pangarap at hangarin.
+Ipagkaloob mo po sa akin ang iyong tulong at patnubay,
+Upang aking masunod ang mga kalooban ng Diyos.
+
+Sa pamamagitan ng iyong halimbawa ng tapat na pagmamahal
+Kay Hesus at kay Maria, ipinapakita mo sa amin ang tamang landas.
+Patuloy mo po kaming gabayan at bantayan
+Sa bawat hakbang na aming tatahakin.
+
+O Mahal na San Jose, aming panginoon at amang maawain,
+Ipanalangin mo po kami kay Hesus at kay Maria,
+Nang sa huli, kami'y magtagumpay at makamtan ang buhay na walang hanggan.
+Amen."`,
+
+image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+        name: `A prayer to Saint Gabriel for intercessio`,
+        content: `"O San Gabriel, dakilang mensahero ng Diyos,
+Aming iniuukit ang aming panalangin at pagsamo.
+Ikaw na nagdala ng magandang balita kay Santa Maria,
+Itinigil mo ang takot at pag-aalinlangan niya.
+
+Nagbigay ka ng pag-asa at kaligtasan,
+Kaya't ngayon, aming hinihiling ang iyong interbensyon.
+Ipanalangin mo kami kay Hesus at kay Maria,
+Na aming mga pangangailangan ay iyong maipakiusap.
+
+San Gabriel, tagapagdala ng mga biyayang banal,
+Patnubayan mo po kami sa aming mga paglalakbay.
+Sa lahat ng oras at panahon, kami'y iyong gabayan,
+At sa buhay na walang hanggan, kami'y ipagkalooban.
+
+Amen."`,
+
+image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+        name: `Prayer to saint Raphael for Healing `,
+        content: `"O Mahal na San Rafael,
+Arkanghel ng kalusugan at biyayang duktor ng Diyos,
+Ako po'y humaharap sa Iyo na may pagnanais na pagalingin ang aking karamdaman.
+Ikaw ang kilalang gabay ni Tobias sa kanyang paglalakbay
+at sa pagpapagaling ng katarungan ni Tobit.
+
+Ako po'y humihiling ng Iyong makapangyarihang pagtulong sa aking pangangailangan.
+Ipanalangin mo po ako at idala ang paggaling sa aking katawan, isipan, at kaluluwa.
+Gabayan mo po ang mga kamay at isipan ng mga taong nag-aalaga sa akin
+upang maging mga instrumento ng biyayang pagpapagaling ng Diyos.
+
+O Maawain na San Rafael,
+dinig mo po sana ang aking panalangin at itaguyod ito sa ating mahal na Ama sa Langit.
+Ipanalangin Mo po na aking matanggap ang biyayang tanggapin ang Kanyang kalooban
+at magtiwala sa Kanyang plano para sa aking kalusugan at kagalingan.
+
+San Rafael, patron ng mga may sakit at ng pagpapagaling,
+Ipinagkakatiwala ko ang aking sarili sa Iyong pangangalaga at proteksyon.
+Nawa'y Iyong ipanalangin ang aking ganap na pagpapagaling at paggaling,
+upang ako'y magbigay kaluwalhatian sa Diyos na may pusong puno ng pasasalamat.
+
+Amen."`, 
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+    
+        name: `Guardian Angel Prayer(I) `,
+        content: `"Santo angel ng Diyos, aming tagapagbantay,
+Naririto kami sa iyong paanyaya,
+Gabayan mo kami sa aming buong landas,
+Ingatan mo kami mula sa panganib at kasamaan.
+
+Sa araw-araw na aming paglalakbay,
+Sa gabi at umaga, sa kaharian ng buhay,
+Ama naming mapanagot, Diyos naming mahabagin,
+Iyong ipagkaloob ang iyong biyaya at gabay.
+
+Sa lahat ng oras, kami'y iyong tanglawin,
+Sa aming mga hakbang, kami'y patnubayan.
+Huwag kang mag-atubiling kami'y protektahan,
+Kami'y iyong bantayang espirituwal na tapat.
+
+Salamat sa iyo, aming tagapagbantay na banal,
+Sa pagmamahal at patnubay na walang hanggan.
+Sa araw ng aming paglisan sa mundong ito,
+Akayin mo kami sa kaharian ng langit na buhay.
+
+Amen."`, 
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+    
+        name: `Guardian Angel Prayer(II) `,
+        content: `"Santo angel ng Diyos, aking kasama,
+Sa araw-araw at sa gabi't umaga,
+Sa Iyo ako'y nagpapasalamat nang buong puso,
+Sa pagmamahal at pag-aalaga mong tunay.
+
+Ipanalangin mo ako sa harap ng Diyos Amang Banal,
+Ituro mo ang landas ng katuwiran at kabutihan sa akin,
+Ibantay mo ako sa panganib at kasamaan,
+At gabayan mo ako sa buhay na mapayapa't mahusay.
+
+Salamat sa iyong walang sawang pagmamahal,
+Sa iyong patuloy na pangangalaga at gabay.
+Sa oras ng aking kamatayan, aking hinihiling,
+Akayin mo ako sa harap ng Diyos, sa kaharian ng Langit.
+
+Amen."`,  
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+    
+        name: `Guardian Angel Prayer(III) `,
+        content: `"Santo angel ng Diyos, aking tagapagbantay,
+Sa Iyo ako'y nagpupugay, aking kaalaman,
+Sa bawat hakbang sa aking paglalakbay,
+Sa gabi't araw, aking kasamahan.
+
+Ipanalangin mo ako sa Diyos na Amang Banal,
+Ituro ang daan ng katotohanan at kabanalan,
+Ingatan mo ako mula sa panganib at kasamaan,
+At ilapit ako sa pagmamahal ng Diyos na walang hanggan.
+
+Salamat sa pag-aalaga't pagmamahal mong tunay,
+Sa lahat ng oras, sa bawat sandali't hakbang,
+Sa pagkupkop mo sa akin, aking kaibigan,
+Sa langit, magkakasama tayong magpuri sa Diyos na Dakila.
+
+Amen."`,  
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+    
+        name: `Prayer for Protection to the Holy Angels`,
+        content: `"Mga Banal na Anghel ng Diyos,
+Aming mga tagapagbantay at mga gabay,
+Naririto kami ngayon na humihiling ng inyong proteksyon,
+Sa inyong kaharian ng kabutihan at kaligtasan.
+
+Ama naming Diyos, sa pamamagitan ng mga Banal na Anghel,
+Ipinakikilala namin ang aming pangangailangan at pagkakatapat,
+Ipanalangin ninyo kami sa harap ng Trono ng Diyos,
+Upang kami'y maproteksyunan mula sa lahat ng panganib at kasamaan.
+
+Sa inyong mga malalasakit na kamay,
+Itayo ninyo ang inyong mga espada ng liwanag,
+At ilipad ninyo ang mga ito upang aming mabantayan,
+Laban sa lahat ng puwersang masama at mapanlinlang.
+
+Mga Banal na Anghel, aming mga kaagapay sa langit,
+Patuloy na kami'y gabayan at ipanatili sa ligtas na landas,
+Tulungan ninyo kaming maging tapat kay Hesus,
+At samahan kami sa paglalakbay patungo sa Kanyang kaharian.
+
+Sa ngalan ng Ama, ng Anak, at ng Espiritu Santo,
+Amen."`,  
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+    
+        name: `Prayer to the Blessed Virgin Mary (II) `,
+        content: `"Santa  Maria, Ina  ng Diyos,
+Napupuno  ka  ng  biyaya,
+Ang  Panginoong  Diyos ay sumasa iyo,
+Bukod kang pinagpala sa mga babae,
+At  pinagpala  rin  naman ang iyong Anak na si Hesus.
+Santa Maria, Ina  ng  Diyos,
+Ipanalangin  mo  kami mga  makasalanan,
+Ngayon  at kung  kami'y  mamamatay.
+Amen."`,  
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+    {
+    
+        name: `The "August Queen of Angels" prayer`,
+        content: `"Sa iyong mga kaharian, O Mahal na Reyna ng mga Anghel,
+Naririto kami ngayon na humaharap sa iyong paanan,
+Naghahandog ng aming pananampalataya at pag-ibig sa iyo,
+Bilang aming Ina at tagapamahala sa mga kawal ng langit.
+
+Ipinagkakatiwala namin sa iyo ang aming mga puso at kaluluwa,
+Nawa'y gabayan mo kami sa lahat ng oras at pagkakataon,
+Ituro mo sa amin ang landas tungo sa iyong Anak na si Hesus,
+At patnubayan mo kami sa paglalakbay ng aming buhay.
+
+Santa Maria, Reyna ng mga Anghel,
+Ipanalangin mo kami sa iyong Anak at sa Diyos Amang Banal,
+At sa harap ng iyong mga anghel, kami'y ilapit,
+Upang kami'y tulungan at gabayan sa aming paglalakbay.
+
+Amen."`,  
+
+ image: require('../assets/bg/prayer-17.jpg')
+    },
+   
+
+ 
+
 ];
 
 export default catholicPrayers;
+        
