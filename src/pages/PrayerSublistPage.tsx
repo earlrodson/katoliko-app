@@ -1,24 +1,17 @@
 // DetailPage.js
-import React, { useEffect } from 'react';
+import React from 'react';
 import { ImageBackground, ScrollView, StyleSheet, Text } from 'react-native';
 import { FlatList, View } from "react-native";
 import { Divider, List } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
-import KatekismoDetailPage from './KatekismoDetailPage';
 
-const KatekismoSublistPage = ({ route }) => {
+const PrayerSublistPage = ({ route }) => {
+    const { item, setPageTitle } = route.params;
     const navigation = useNavigation();
-
-    const { item, setSelectedLanguage, title, setUniqueLanguages} = route.params;
-    useEffect(() => {
-      setUniqueLanguages(['eng']);
-      setSelectedLanguage('eng');
-    }, [])
-
 
     const handleItemClick = (item: any) => {
       const isList = Array.isArray(item.content) && item.content.length > 0;
-      navigation.navigate(isList ? 'KatekismoSublistPage' : 'KatekismoDetailPage', { item });
+      navigation.navigate(isList ? 'PrayerSublistPage' : 'PrayerDetailPage', { item });
     };
         
     const renderItem = ({ item }: { item: { name: string } }) => (
@@ -62,4 +55,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default KatekismoSublistPage;
+export default PrayerSublistPage;

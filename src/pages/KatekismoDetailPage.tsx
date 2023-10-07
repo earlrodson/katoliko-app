@@ -1,13 +1,18 @@
 // DetailPage.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ImageBackground, ScrollView, StyleSheet, Text, useWindowDimensions } from 'react-native';
 import ccc from '../data/ccc';
 import HTML from 'react-native-render-html';
+import { isArray } from 'lodash';
 
 const KatekismoDetailPage = ({ route }) => {
 
     const { width } = useWindowDimensions();  
-    const { item } = route.params;
+    const { item, setSelectedLanguage, title, setUniqueLanguages} = route.params;
+    useEffect(() => {
+      setUniqueLanguages(['eng']);
+      setSelectedLanguage('eng');
+    }, [])
 
 
     // Function to replace [ccc=...] patterns with content based on cccNumber
