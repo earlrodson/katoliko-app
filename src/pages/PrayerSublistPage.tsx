@@ -1,18 +1,20 @@
 // DetailPage.js
+import { isUndefined } from 'lodash';
 import React from 'react';
-import { ImageBackground, ScrollView, StyleSheet, Text } from 'react-native';
-import { FlatList, View } from "react-native";
+import { FlatList, StyleSheet, View } from 'react-native';
 import { Divider, List } from "react-native-paper";
-import { useNavigation } from "@react-navigation/native";
 
-const PrayerSublistPage = ({ route }) => {
-    const { item, setPageTitle } = route.params;
-    const navigation = useNavigation();
+const PrayerSublistPage = (props: any) => {
+    const { item, setItem, setIsList, setPageType } = props;
 
+    
     const handleItemClick = (item: any) => {
-      const isList = Array.isArray(item.content) && item.content.length > 0;
-      navigation.navigate(isList ? 'PrayerSublistPage' : 'PrayerDetailPage', { item });
-    };
+      const isList = Array.isArray(item.content) && item.content.length > 0 && isUndefined(item?.isTranslations);
+      setIsList(isList);
+      setPageType('sublist')
+      setItem(item)
+  };
+
         
     const renderItem = ({ item }: { item: { name: string } }) => (
       <>

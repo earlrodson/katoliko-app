@@ -9,32 +9,26 @@ import KatekismoDetailPage from './src/pages/KatekismoDetailPage';
 import KatekismoSublistPage from './src/pages/KatekismoSublistPage';
 import PrayerSublistPage from './src/pages/PrayerSublistPage';
 import TopBar from './src/components/TopBar';
+import { selectStateCurrentPrayerLanguage } from './src/redux/selector/selectLanguages';
 
 const Stack = createStackNavigator();
 
 const App = () => {
   const [pageTitle, setPageTitle] = useState('Nilalaman');
   const [selectedLanguage, setSelectedLanguage] = useState('tag'); // Default language
-  const [uniqueLanguages, setUniqueLanguages] = useState(['tag']); // Default language
   const [title, setTitle] = useState('Page'); // Default language
-  
-  useEffect(()=>{
-    console.log('selectedLanguage', selectedLanguage);
-  },[selectedLanguage])
+
 
   return (
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          header: ({ scene, previous, navigation }) => (
-            <TopBar 
-              scene={scene} 
+          header: ({ scene, previous, navigation, setSelectedLanguage }) => (
+            <TopBar
+              scene={scene}
               navigation={navigation}
               title={title}
-              selectedLanguage={selectedLanguage}
               setSelectedLanguage={setSelectedLanguage}
-              uniqueLanguages={uniqueLanguages}
-              setUniqueLanguages={setUniqueLanguages}
             />
           ),
         }}
@@ -57,7 +51,7 @@ const App = () => {
         <Stack.Screen
           name="PrayerDetailPage"
           component={PrayerDetailPage}
-          initialParams={{ selectedLanguage, title, setUniqueLanguages }}
+          initialParams={{ selectedLanguage, title }}
           options={{
             headerTitle: 'Nilalaman',
           }}
@@ -72,7 +66,7 @@ const App = () => {
         <Stack.Screen
           name="KatekismoSublistPage"
           component={KatekismoSublistPage}
-          initialParams={{ selectedLanguage, title, setUniqueLanguages, setSelectedLanguage }}
+          initialParams={{ selectedLanguage, title }}
           options={{
             headerTitle: pageTitle,
           }}
@@ -80,7 +74,7 @@ const App = () => {
         <Stack.Screen
           name="KatekismoDetailPage"
           component={KatekismoDetailPage}
-          initialParams={{ selectedLanguage, title, setUniqueLanguages, setSelectedLanguage}}
+          initialParams={{ selectedLanguage, title }}
           options={{
             headerTitle: pageTitle,
           }}

@@ -8,10 +8,10 @@ import { isArray } from 'lodash';
 const KatekismoDetailPage = ({ route }) => {
 
     const { width } = useWindowDimensions();  
-    const { item, setSelectedLanguage, title, setUniqueLanguages} = route.params;
+    const { item, title} = route.params;
     useEffect(() => {
-      setUniqueLanguages(['eng']);
-      setSelectedLanguage('eng');
+      // setUniqueLanguages(['eng']);
+      // setSelectedLanguage('eng');
     }, [])
 
 

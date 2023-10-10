@@ -1,28 +1,32 @@
-import React, { useState } from 'react';
-import { Appbar, Menu, Text } from 'react-native-paper';
-import { useNavigation } from '@react-navigation/native';
+import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import { Appbar, Text } from 'react-native-paper';
+import { selectStatePage } from '../redux/selector/selectPage';
 
-const TopBar = ({ title, selectedLanguage, setSelectedLanguage, uniqueLanguages = ['tag'] }) => {
-  const navigation = useNavigation();
+const TopBar = (props: any) => {
+  const { setSelectedLanguage, selectedLanguage, backToPage, selectStateLanguages } = props;
+
+  const changeLanguage = (language: string) => {
+    setSelectedLanguage(language);
+  }
 
   return (
     <Appbar.Header>
-      <Appbar.BackAction onPress={() => { navigation.goBack(); }} />
-      <Appbar.Content title={title} />
+      <Appbar.BackAction onPress={() => backToPage()} />
+      <Appbar.Content title={selectStatePage.title} />
 
 
       {/* Language Buttons */}
       <View style={styles.languageButtonsContainer}>
-        {uniqueLanguages.map(language => (
+        {selectStateLanguages.map(language => (
           <TouchableOpacity
             key={language}
             style={[
               styles.languageButton,
               selectedLanguage === language && styles.selectedButton,
             ]}
-            onPress={() => setSelectedLanguage(language)}
+            onPress={() => changeLanguage(language)}
           >
             <Text>{language.toUpperCase()}</Text>
           </TouchableOpacity>

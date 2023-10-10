@@ -1,10 +1,11 @@
 import * as React from "react";
 import { AppRegistry } from "react-native";
-import { MD2LightTheme, PaperProvider } from "react-native-paper";
+import { MD2LightTheme, PaperProvider, Text } from "react-native-paper";
 import App from "./App";
 import { name as appName } from "./app.json";
-import {store, persistor} from './src/redux/store';
 import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import { persistor, store } from "./src/redux/store";
 
 export default function Main() {
   const theme = {
@@ -60,8 +61,9 @@ export default function Main() {
   };
 
   return (
+
     <Provider store={store}>
-      <PersistGate loading={<Text>Loading...</Text>} persistor={persistor}>
+      <PersistGate loading={null} persistor={persistor}>
         <PaperProvider theme={theme}>
           <App />
         </PaperProvider>

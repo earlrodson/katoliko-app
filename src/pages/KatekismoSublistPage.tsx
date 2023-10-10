@@ -9,10 +9,10 @@ import KatekismoDetailPage from './KatekismoDetailPage';
 const KatekismoSublistPage = ({ route }) => {
     const navigation = useNavigation();
 
-    const { item, setSelectedLanguage, title, setUniqueLanguages} = route.params;
+    const { item, title} = route.params;
     useEffect(() => {
-      setUniqueLanguages(['eng']);
-      setSelectedLanguage('eng');
+      // setUniqueLanguages(['eng']);
+      // setSelectedLanguage('eng');
     }, [])
 
 

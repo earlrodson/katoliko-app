@@ -1,79 +1,91 @@
-import { isArray } from 'lodash';
 import React, { useEffect, useState } from 'react';
-import { ImageBackground, ScrollView, StyleSheet, Text, TouchableOpacity, View, useWindowDimensions } from 'react-native';
+import { ImageBackground, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import HTML from 'react-native-render-html';
+import { useDispatch } from 'react-redux';
+import { setLanguages } from '../redux/reducers/app';
+import { isArray, isUndefined } from 'lodash';
+import catholicPrayers from '../data/prayers';
 
-const PrayerDetailPage = ({ route }) => {
+const PrayerDetailPage = (props: any) => {
+  const { item, selectedLanguage, setselectStateLanguages, setSelectedLanguage } = props;
+  const { width, height } = useWindowDimensions(); // Get the height of the screen
+  const dispatch = useDispatch();
   const [content, setContent] = useState('');
-  const { item, selectedLanguage, title, setUniqueLanguages} = route.params;
-  const { width } = useWindowDimensions();
-  console.log('selectedLanguage',selectedLanguage);
-  useEffect(() => {
-    if(isArray(item.content)) {
-      const uniqueLanguages = item.content.map(e => e.lang);
-      setUniqueLanguages(uniqueLanguages);
-  
-      const selectedContent = item.content.find(langItem => langItem.lang === selectedLanguage);
-      setContent(selectedContent.content);
-      console.log('item-xxx',uniqueLanguages);
-      
-    }
-    else {
-      setContent(item.content);
-    }
-  }, [])
 
-  useEffect(()=>{
-    console.log('x');
-    
-  },[selectedLanguage])
-  
+  useEffect(() => {
+    setContent(getContent(item));
+  }, [selectedLanguage]);
+
+  const getContent = (item: any) => {
+    let content;
+
+    if (isArray(item.content)) {
+      const uniqueLanguages = item.content.map((e: { lang: any; }) => e.lang);
+      let selectedLanguageLocal = selectedLanguage;
+
+      dispatch(setLanguages(uniqueLanguages));
+      setselectStateLanguages(uniqueLanguages);
+
+      const index = uniqueLanguages.indexOf(selectedLanguage);
+
+      if (index !== -1) {
+        console.log(`Found '${selectedLanguage}' at index ${index}`);
+      } else {
+        setSelectedLanguage(uniqueLanguages[0])
+        selectedLanguageLocal = uniqueLanguages[0];
+      }
+
+      const selectedLanguageContent = item.content.find((langItem: { lang: any; }) => langItem.lang === selectedLanguageLocal);
+
+
+      content = "<p>" + replacePrayerTags(selectedLanguageContent?.content, catholicPrayers) + "</p>";
+    } else {
+      content = "<p>" + replacePrayerTags(item.content, catholicPrayers) + "</p>";
+    }
+    return content;
+  }
+
+  function replacePrayerTags(content, prayers) {
+    return content.replace(/\[prayer-(\d+)\]/g, (match, id) => {
+      const prayer = prayers.find(item => item.id === `prayer-${id}`);
+      if (prayer) {
+        const prayerContent = prayer.content.find(item => item.lang === selectedLanguage);
+        return prayerContent ? prayerContent.content : match;
+      }
+      return match;
+    });
+  }
+
 
   return (
     <ImageBackground source={item.image} style={styles.background}>
-      <ScrollView contentContainerStyle={styles.container} showsVerticalScrollIndicator={false}>
-        <Text style={styles.text}>{item.name}</Text>
-        <HTML source={{ html: content }} contentWidth={width} />
-      </ScrollView>
-    </ImageBackground>
+      <View style={{ padding: 10, paddingBottom: 100, backgroundColor: 'rgba(255, 255, 255, 0.8)' }}>
+        <ScrollView
+          contentContainerStyle={{ minHeight: height }} // Ensure that the content is at least the height of the screen
+          showsVerticalScrollIndicator={false}
+        >
+          <Text style={styles.text}>{item.name}</Text>
+          <HTML source={{ html: content }} contentWidth={width} tagsStyles={{
+            p: { fontSize: 18, color: '#333', lineHeight: 30, textAlign: 'center' }
+          }} />
+        </ScrollView>
+      </View>
+    </ImageBackground >
   );
 };
 
 const styles = StyleSheet.create({
   background: {
-    flex: 1,
     resizeMode: 'cover',
     justifyContent: 'center',
-  },
-  container: {
-    flexGrow: 1,
-    backgroundColor: 'rgba(255, 255, 255, 0.8)',
-    paddingVertical: 20,
-    paddingHorizontal: 20,
   },
   text: {
     fontSize: 20,
     lineHeight: 30,
     fontFamily: 'Roboto',
-    color: '#333',
-  },
-  languageButtonsContainer: {
-    position: 'absolute',
-    top: 20,
-    right: 20,
-    flexDirection: 'row',
-  },
-  languageButton: {
-    paddingHorizontal: 10,
-    paddingVertical: 5,
-    borderWidth: 1,
-    borderColor: '#333',
-    borderRadius: 5,
-    marginHorizontal: 5,
-  },
-  selectedButton: {
-    backgroundColor: '#333',
-    color: 'white',
+    color: 'black',
+    textAlign: 'center',
+    marginVertical: 20, // Add some margin to separate the text from the content
   },
 });
 

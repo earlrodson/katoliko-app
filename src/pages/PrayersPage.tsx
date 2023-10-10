@@ -6,14 +6,16 @@ import { useState } from "react";
 import { isUndefined } from "lodash";
 
 
-const PrayerPage = () => {
+const PrayerPage = (props: any) => {
+    const {setItem, setIsList, setPageType} = props;
     const navigation = useNavigation();
     const [searchQuery, setSearchQuery] = useState(""); // Initialize the searchQuery state
 
     const handleItemClick = (item: any) => {
-        
         const isList = Array.isArray(item.content) && item.content.length > 0 && isUndefined(item?.isTranslations);
-        navigation.navigate(isList ? 'PrayerSublistPage' : 'PrayerDetailPage', { item });
+        setIsList(isList);
+        setPageType('sublist')
+        setItem(item)
     };
 
     const renderPrayerItem = ({ item }: { item: { name: string } }) => (
@@ -32,7 +34,7 @@ const PrayerPage = () => {
     );
 
     return (
-        <View style={{ padding: 16 }}>
+        <>
             <Searchbar
                 placeholder="Search prayers"
                 onChangeText={(query) => setSearchQuery(query)} // Update searchQuery when text changes
@@ -43,7 +45,7 @@ const PrayerPage = () => {
                 renderItem={renderPrayerItem}
                 keyExtractor={(item) => item.name}
             />
-        </View>
+        </>
     );
 };
 

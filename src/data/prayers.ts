@@ -1,5 +1,6 @@
 const catholicPrayers = [
   {
+    id:'prayer-1',
     name: "Apostles' Creed",
     content: [
       {
@@ -94,12 +95,14 @@ const catholicPrayers = [
     image: require("../assets/bg/prayer-15.webp"),
   },
   {
+    id:'prayer-2',
     name: "Ang Panampalataya ng Nicene (Nicene Creed)",
     content:
       "Sumasampalataya kami sa iisang Diyos, Ama Amang makapangyarihan sa lahat, May-lalang ng langit at lupa, ng lahat ng bagay na nakikita at hindi nakikita. Isang Panginoon, Hesus Kristo, Bugtong na Anak ng Diyos, ipinanganak mula sa Ama bago pa man ang lahat ng mga bagay: Liwanag mula sa Liwanag, tunay na Diyos mula sa tunay na Diyos, na ipinanganak, hindi ginawa, kaisang kalikasan sa Diyos Ama; sa Kanya ginawa ang lahat ng mga bagay; Dahil sa amin at sa aming kaligtasan ay bumaba Siya mula sa Langit; at nagkatawang-tao Siya sa pamamagitan ng Espiritu Santo sa pamamagitan ng Birheng Maria at nagkaroon ng TAO. Siya'y ipinako sa krus para sa amin sa ilalim ni Poncio Pilato, Siya'y namatay at inilibing. At sa ikatlong araw, Siya'y muling nabuhay, ayon sa mga kasulatan; at umakyat Siya sa Langit, at nauupo sa kanan ng Diyos Ama; at sa muli niyang pagdating, na may kaluwalhatian, upang hukuman ang mga buhay at ang mga patay; at ang kanyang kaharian ay walang hanggan. Sumasampalataya ako sa Espiritu Santo, na Panginoon at tagapagbigay buhay, na lumalabas sa Ama at sa Anak; na kasama ng Ama at ng Anak ay sinusunod at sinasamba, at nililok na kasama ng mga propeta. Sumasampalataya ako sa iisang Banal, Katoliko, at Apostolikong Iglesya. Iniisa-isa ko ang isang Binyag para sa pagpapatawad ng mga kasalanan. Nananampalataya ako sa muling pagkabuhay ng mga patay, at sa buhay ng walang hanggan. Amen.",
     image: require("../assets/bg/prayer-15.webp"),
   },
   {
+    id:'prayer-3',
     name: "Ama Namin (Our Father)",
     content: [
       {
@@ -164,6 +167,7 @@ const catholicPrayers = [
     image: require("../assets/bg/prayer-8.webp"),
 },
 {
+    id:'prayer-4',
     name: "Hail Mary",
     content: [
         {
@@ -229,6 +233,7 @@ const catholicPrayers = [
     image: require("../assets/bg/prayer-12.jpg"),
   },
   {
+    id:'prayer-5',
     name: "Glory Be",
     content: [
         {
@@ -290,16 +295,159 @@ const catholicPrayers = [
     image: require("../assets/bg/prayer-14.webp"),
   },
   {
+    id:'prayer-6',
+    name: "Hail Holy Queen",
+    content: [
+        {
+            name: `Aba Po Santa Mariang Hari`,
+            content: `
+              Aba Po Santa Mariang Hari, Ina ng Awa. <br>
+              Ikaw ang kabuhayan at katamisan; <br> 
+              Aba pinananaligan ka namin. <br> 
+              Ikaw nga ang tinatawagan namin, <br> 
+              pinapanaw na taong anak ni Eva. <br> 
+              Ikaw rin ang pinagbunbuntuhang hininga namin <br> 
+              ng aming pagtangis <br> 
+              dini sa lupang bayang kahapis-hapis. <br> 
+              Ay aba, pintakasi ka namin, <br> 
+              ilingon mo sa amin, <br> 
+              ipakita mo sa amin <br> 
+              ang iyong Anak na si Hesus. <br> 
+              Santa Maria, Ina ng Diyos, <br> 
+              maawain, maalam at matamis na Birhen. <br> 
+              `, 
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "tag",
+        },
+        {
+            name: `Maghimaya ka Rayna`,
+            content: `
+              Maghimaya ka Rayna, Inahan sa kaluoy ug kinabuhi, <br>
+              Kinatam-is ikaw ang gi-lauman namo, Maghimaya Ka! <br>
+              Nagapanawag kami kanimo, <br>
+              Kaming mga hininginlang anak ni Eba, <br>
+              Nagapanghupaw kami, Nanag-agulou, nanagpanghilak, <br>
+              Dinhi niining walog nga luhaan. <br>
+              Dad-a ang among mag-alampo, <br>
+              ipakita mo kanamo kanang imong ga mata nga maloloy-on <br>
+              Kon tapos na kining paghingilin ipakita mo kanamo <br>
+              Ang imong Anak nga si Hesus, <br>
+              Ang Mahal nga Bunga sa tiyan mo. <br>
+              Ay maaghop!, Ay maluluy-on, <br>
+              Ay matam-is nga Birhen Maria! 
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "ceb",
+        },
+        {
+            name: `Hail, Holy Queen`,
+            content: `
+              Hail, Holy Queen, Mother of Mercy, <br>
+              our life, our sweetness and our hope.<br>
+              To you do we cry,<br>
+              poor banished children of Eve. <br>
+              To you do we send up our sighs, <br>
+              mourning and weeping in this valley of tears <br>
+              Turn then, most gracious advocate,<br>
+              your eyes of mercy toward us,<br>
+              and after this exile<br>
+              show unto us the blessed fruit of thy womb,<br>
+              Jesus.<br>
+              O clement, O loving, <br>
+              O sweet Virgin Mary.`,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "eng",
+        },
+        {
+            name: `Salve, Regina`,
+            content: `
+                Salve, Regina, mater misericordiae; <br>
+                vita, dulcedo et spes nostra, salve. <br>
+                Ad te clamamus exsules filii Hevae. <br>
+                Ad te suspiramus gementes et flentes <br>
+                in hac lacrimarum valle.  <br>
+                Eia ergo, advocata nostra,  <br>
+                illos tuos misericordes oculos ad nos converte.  <br>
+                Et Iesum, benedictum fructum ventris tui,  <br>
+                nobis post hoc exsilium ostende.  <br>
+                O clemens, o pia, o dulcis Virgo Maria. <br>
+                `,
+            image: require("../assets/bg/prayer-5.jpg"),
+            lang: "lat",
+        },
+    ],
+    isTranslations: true,
+    image: require("../assets/bg/prayer-14.webp"),
+  },
+  {
+    id:'prayer-7',
+    name: `Holy Rosary`,
+    content: [
+      {
+        name: `Joyful Mystery`,
+        content: [
+          {
+            name: `Joyful Mystery`,
+            content: `
+              <h3>First Mystery: Annunciation of the Archangel Gabriel to the Blessed Virgin Mary.</h3>
+              <br />
+              <b>Recite the Apostle's Creed: Say the Apostle's Creed.</b>
+              <br />
+              [prayer-1]
+
+              Amen.
+              <br />
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <b>Recite 3 Hail Mary</b>
+              <br />
+              [prayer-4]
+              <br /> 3x.
+            `,
+            image: require("../assets/bg/prayer-4.jpg"),
+            lang: "eng",
+          },
+          {
+            name: `Joyful Mystery`,
+            content: `
+              <h3>First Mystery: Annunciation of the Archangel Gabriel to the Blessed Virgin Mary.</h3>
+              <br />
+              <b>Recite the Apostle's Creed: Credu in Deum.</b>
+              <br />
+              [prayer-1]
+
+              Amen.
+              <br />
+              <br />
+              <b>Say an Our Father: Recite the "Pater Noster" prayer (the Lord's Prayer).</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <b>Recite 3 Ave Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 3x.
+            `,
+            image: require("../assets/bg/prayer-4.jpg"),
+            lang: "lat",
+          },
+        ],
+        image: require("../assets/bg/prayer-4.jpg"),
+        isTranslations: true,
+      },
+    ],
+    image: require("../assets/bg/prayer-4.jpg"),
+  },
+  {
     name: "Pagsisisi (Act of Contrition)",
     content:
       "O Diyos ko, ako'y lubos na nagsisisi sa lahat ng aking mga kasalanan, sapagkat ito'y laban sa Iyo, na aking minamahal nang buong kataimtiman, buong kaluluwa, at buong lakas. Ako'y labis na naghihinayang sa mga kasalanan ko sapagkat ako'y natatakot mawala ang langit at magdusa sa impiyerno. Ngunit higit sa lahat, iyo akong iniibig nang lubos, at malupit na sinasalanan ko ang Iyong malasakit. Ako'y may matibay na pasiya, sa Tulong ng Iyong biyaya, na ako'y magsusumpa sa aking mga kasalanan, magtutubos, at magbabagong-buhay. Amen.",
     image: require("../assets/bg/prayer-1.jpeg"),
-  },
-  {
-    name: "Aba Po Maria (Hail, Holy Queen / Salve Regina)",
-    content:
-      "Aba Po Maria, napupuno ka ng grasya, ang Panginoong Diyos ay sumasaiyo. Bukod kang pinagpala sa babaeng lahat, at pinagpala naman ang bunga ng iyong tiyan, Jesus. Santa Maria, Ina ng Diyos, ipanalangin mo kaming makasalanan, ngayon at kung kami'y mamamatay. Amen.",
-    image: require("../assets/bg/prayer-5.jpg"),
   },
   {
     name: "Ang Rosaryo (The Rosary)",
@@ -359,53 +507,6 @@ Luminous Mysteries (Thursdays):
     The Proclamation of the Kingdom of God
     The Transfiguration
     The Institution of the Holy Eucharist at the Last Supper`,
-    image: require("../assets/bg/prayer-4.jpg"),
-  },
-  {
-    name: `The Mysteries of the Holy Rosary`,
-    content: [
-      {
-        name: `Joyful Mystery`,
-        content: `
-<h3>First Mystery: Annunciation of the Archangel Gabriel to the Blessed Virgin Mary.</h3>
-<br />
-<b>Recite the Apostle's Creed: Say the Apostle's Creed.</b>
-<br />
-I believe in God,
-the Father almighty,
-Creator of heaven and earth,
-and in Jesus Christ, his only Son, our Lord,
-who was conceived by the Holy Spirit,
-born of the Virgin Mary,
-suffered under Pontius Pilate,
-was crucified, died and was buried;
-he descended into hell;
-on the third day he rose again from the dead;
-he ascended into heaven,
-and is seated at the right hand of God the Father almighty;
-from there he will come to judge the living and the dead.
-
-I believe in the Holy Spirit,
-the holy catholic Church,
-the communion of saints,
-the forgiveness of sins,
-the resurrection of the body,
-and life everlasting.
-
-Amen.
-<br />
-<br />
-<b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
-Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil.
-<br />
-<br />
-
-
-                `,
-        lang: "eng",
-        image: require("../assets/bg/prayer-4.jpg"),
-      },
-    ],
     image: require("../assets/bg/prayer-4.jpg"),
   },
   {
