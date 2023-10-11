@@ -381,6 +381,155 @@ const catholicPrayers = [
   },
   {
     id:'prayer-7',
+    name: "Come Holy Spirit, come",
+    content: [
+        {
+            name: `O Hesus ko (Fatima Prayer)`,
+            content: `
+              O Hesus ko, patawarin Mo ang aming mga sala <br>
+              Iligtas Mo kami sa apoy ng impiyerno. <br>
+              Hanguin Mo ang mga kaluluwa sa purgatoryo. <br>
+              Lalong-lalo na yaong mga walang nakakaalaala. <br>
+              Amen
+              `, 
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "tag",
+        },
+        {
+            name: `O Jesus Ko / Oh, My Jesus (Fatima Prayer)`,
+            content: `
+            O Jesus ko pasayloa kami sa among mga sala, <br>
+            Lowasa kami sa kalayo sa Impyerno. Dad-a ang <br>
+            tanang mga nangamatay diha sa imong kalooy, <br>
+            ilabi na kadtong nanginahanglan sa Imong Kalooy ug Panabang. <br>
+            Amen.
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "ceb",
+        },
+        {
+            name: `The Fatima Prayer`,
+            content: `
+            O My Jesus, <br>
+            forgive us our sins, <br>
+            save us from the fires of hell, <br>
+            lead all souls to Heaven, especially <br>
+            those in most need of Thy mercy. <br>
+            Amen.`,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "eng",
+        },
+        {
+            name: `Fatima Prayer`,
+            content: `
+                O MI IESU,  <br>
+                dimitte nobis debita nostra,  <br>
+                libera nos ab igne inferni,  <br>
+                conduc in caelum omnes animas,  <br>
+                praesertim illas quae maxime indigent misericordia tua. <br>
+                Amen.
+                `,
+            image: require("../assets/bg/prayer-5.jpg"),
+            lang: "lat",
+        },
+    ],
+    isTranslations: true,
+    image: require("../assets/bg/prayer-14.webp"),
+  },
+  {
+    id:'prayer-8',
+    name: "Come Holy Spirit, come",
+    content: [
+        {
+            name: `Come Holy Spirit, come`,
+            content: `
+              Hali na, <br>
+              Espiritu Santo, <br>
+              Hali na sa makapangyarihan pamamagitan ng kalinis-linisang Puso ni Maria, <br>
+              iyong minamahal na esposa.<br>
+              Amen
+              `, 
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "tag",
+        },
+        {
+            name: `Umari ka, Espiritu Santo, Umari ka.`,
+            content: `
+              Umari ka, Espiritu Santo,  <br>
+              Umari ka,  <br>
+              pinaagi  sa gamhanang pangamuyo sa Imaculada nga Kasingkasing ni Maria,  <br>
+              ang imong gihigugmang esposa. <br>
+              Amen.
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "ceb",
+        },
+        {
+            name: `Come Holy Spirit, come`,
+            content: `
+              Come, Holy Spirit,  <br>
+              come by means of the powerful intercession of the Immaculate Heart of Mary,  <br>
+              your well-beloved spouse. <br>
+              Amen.`,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "eng",
+        },
+        {
+            name: `Come Holy Spirit, come`,
+            content: `
+                Veni, Sancte Spiritus,  <br>
+                veni per potentissimam intercessionem Immaculati Cordis Mariae,  <br>
+                tuae dilectissimae sponsae. <br>
+                Amen.
+                `,
+            image: require("../assets/bg/prayer-5.jpg"),
+            lang: "lat",
+        },
+    ],
+    isTranslations: true,
+    image: require("../assets/bg/prayer-14.webp"),
+  },
+  {
+    id:'prayer-9',
+    name: "Prayer to the Sacred heart of Jesus",
+    content: [
+        {
+            name: `Prayer to the Sacred heart of Jesus`,
+            content: `
+              Malumo at mapagpakumbabang puso ni Jesus, gawin katulad ng puso mo ang aking puso.
+              `, 
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "tag",
+        },
+        {
+            name: `Prayer to the Sacred heart of Jesus`,
+            content: `
+            Malumo ug mapaubsanong kasing kasing ni Jesus, himua mahisama sa imong kasing kasing ang among kasing kasing.
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "ceb",
+        },
+        {
+            name: `Prayer to the Sacred heart of Jesus`,
+            content: `
+                Jesus, meek and humble of heart, make my heart like unto Thine.`,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "eng",
+        },
+        {
+            name: `Prayer to the Sacred heart of Jesus`,
+            content: `
+                Iesus, mitis et humilis corde, fac cor meum secundum cor tuum.
+                `,
+            image: require("../assets/bg/prayer-5.jpg"),
+            lang: "lat",
+        },
+    ],
+    isTranslations: true,
+    image: require("../assets/bg/prayer-14.webp"),
+  },
+  {
+    id:'prayer-10',
     name: `Holy Rosary`,
     content: [
       {
@@ -388,14 +537,180 @@ const catholicPrayers = [
         content: [
           {
             name: `Joyful Mystery`,
-            content: `
-              <h3>First Mystery: Annunciation of the Archangel Gabriel to the Blessed Virgin Mary.</h3>
+            content: `<p>
+              <b>Creedo.</b>
               <br />
+              [prayer-1]
+              <br />
+              <br />
+              <b>Ampo sa Amahan namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <b>Ampo 3 Maghimaya ka Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 3x.
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Unang Misteryo: Ang Pagpahibalo sa Angel Grabriel kay Santa Maria.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              <b>Ikaduhang Misteryo: Ang Pagduaw ni Santa Maria kang Santa Isabel.</b>
+              <br />
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              <b>Ikatulong Misteryo: Ang Pagkapanganak kang Hesus atong Ginoo.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              <b>Ikaupat nga Misteryo: Ang Paghalad sa Diosnong Bata didto sa Templo sa Jerusalen </b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              <b>Ikalimang Misteryo: Ang Pagwala sa Diosnong Bata ug Paghikaplag Kaniya sa Templo taliwala sa mga makinaadmanon:</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              </p>
+            `,
+            image: require("../assets/bg/prayer-4.jpg"),
+            lang: "ceb",
+          },
+          {
+            name: `Joyful Mystery`,
+            content: `<p>
               <b>Recite the Apostle's Creed: Say the Apostle's Creed.</b>
               <br />
               [prayer-1]
-
-              Amen.
               <br />
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -407,31 +722,238 @@ const catholicPrayers = [
               <br />
               [prayer-4]
               <br /> 3x.
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>First Mystery: Annunciation of the Archangel Gabriel to the Blessed Virgin Mary.</b>
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>Recite 10 Hail Mary</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Second Mystery: The visiation of the Blessed Virgin Mary to her cousin Elizabeth.</b>
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>Recite 10 Hail Mary</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Third Mystery: The Birth of our Lord Jesus Christ.</b>
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>Recite 10 Hail Mary</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Fourth Mystery: The presentation of our Lord Jesus Christ in the temple.</b>
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>Recite 10 Hail Mary</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Fifth Mystery: Finding the Child Jesus in the Temple.</b>
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>Recite 10 Hail Mary</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
             lang: "eng",
           },
           {
             name: `Joyful Mystery`,
-            content: `
-              <h3>First Mystery: Annunciation of the Archangel Gabriel to the Blessed Virgin Mary.</h3>
-              <br />
-              <b>Recite the Apostle's Creed: Credu in Deum.</b>
-              <br />
-              [prayer-1]
-
-              Amen.
-              <br />
-              <br />
-              <b>Say an Our Father: Recite the "Pater Noster" prayer (the Lord's Prayer).</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <b>Recite 3 Ave Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 3x.
+            content: `<p>
+            <b>Crédo in Déum.</b>
+            <br />
+            [prayer-1]
+            <br />
+            <br />
+            <b>Páter Nóster.</b>
+            <br />
+            [prayer-3]
+            <br />
+            <br />
+            <b>3 Áve María</b>
+            <br />
+            [prayer-4]
+            <br /> 3x.
+            <br />
+            <br />
+            <b>Glória Pátri</b>
+            [prayer-5]
+            <br />
+            <br />
+            <b>Prímum mystérium gaudiósum: Annuntiatiónem Beátæ Maríæ Vírginis</b>
+            <br />
+            <br />
+            <b>Páter Nóster.</b>
+            <br />
+            [prayer-3]
+            <br />
+            <br />
+            <br />
+            <b>10 Áve María</b>
+            <br />
+            [prayer-4]
+            <br /> 10x.
+            <br />
+            <br />
+            <br />
+            <b>Glória Pátri</b>
+            [prayer-5]
+            <br />
+            <br />
+            <b>Secúndum mystérium gaudiósum: Visitatiónem Beátæ Maríæ Vírginis</b>
+            <br />
+            <br />
+            <b>Páter Nóster.</b>
+            <br />
+            <b>Páter Nóster.</b>
+            <br />
+            [prayer-3]
+            <br />
+            <br />
+            <br />
+            <b>10 Áve María</b>
+            <br />
+            [prayer-4]
+            <br /> 10x.
+            <br />
+            <br />
+            <br />
+            <b>Glória Pátri</b>
+            [prayer-5]
+            <br />
+            <br />
+            <b>Quartum mystérium gaudiósum : Oblatiónem Dómini nostri Iesu Christi</b>
+            <br />
+            <br />
+            <b>Páter Nóster.</b>
+            <br />
+            [prayer-3]
+            <br />
+            <br />
+            <br />
+            <b>10 Áve María</b>
+            <br />
+            [prayer-4]
+            <br /> 10x.
+            <br />
+            <br />
+            <br />
+            <b>Glória Pátri</b>
+            [prayer-5]
+            <br />
+            <br />
+            <b>Quintum mystérium gaudiósum: Inventiónem Dómini nostri Iesu Christi in templo</b>
+            <br />
+            <br />
+            <b>Páter Nóster.</b>
+            <br />
+            [prayer-3]
+            <br />
+            <br />
+            <br />
+            <b>10 Santa Maria</b>
+            <br />
+            [prayer-4]
+            <br /> 10x.
+            <br />
+            <br />
+            <br />
+            <b>Glória Pátri</b>
+            [prayer-5]
+            <br />
+            <br />
+            <b>Ikalimang Misteryo: Ang Pagwala sa Diosnong Bata ug Paghikaplag Kaniya sa Templo taliwala sa mga makinaadmanon:</b>
+            <br />
+            <br />
+            <b>Páter Nóster.</b>
+            <br />
+            [prayer-3]
+            <br />
+            <br />
+            <br />
+            <b>10 Áve María</b>
+            <br />
+            [prayer-4]
+            <br /> 10x.
+            <br />
+            <br />
+            <br />
+            <b>Glória Pátri</b>
+            [prayer-5]
+            <br />
+            <br />
+            </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
             lang: "lat",
@@ -448,66 +970,6 @@ const catholicPrayers = [
     content:
       "O Diyos ko, ako'y lubos na nagsisisi sa lahat ng aking mga kasalanan, sapagkat ito'y laban sa Iyo, na aking minamahal nang buong kataimtiman, buong kaluluwa, at buong lakas. Ako'y labis na naghihinayang sa mga kasalanan ko sapagkat ako'y natatakot mawala ang langit at magdusa sa impiyerno. Ngunit higit sa lahat, iyo akong iniibig nang lubos, at malupit na sinasalanan ko ang Iyong malasakit. Ako'y may matibay na pasiya, sa Tulong ng Iyong biyaya, na ako'y magsusumpa sa aking mga kasalanan, magtutubos, at magbabagong-buhay. Amen.",
     image: require("../assets/bg/prayer-1.jpeg"),
-  },
-  {
-    name: "Ang Rosaryo (The Rosary)",
-    content: `"Make the Sign of the Cross: Begin by making the Sign of the Cross while saying, "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
-
-Recite the Apostle's Creed: Say the Apostle's Creed, a statement of Christian faith.
-
-Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).
-
-Say Three Hail Marys: Say three "Hail Mary" prayers while meditating on the virtues of faith, hope, and charity.
-
-Say the Glory Be: Recite the "Glory Be" prayer, giving glory to the Holy Trinity.
-
-Announce the First Mystery: Announce the specific mystery for that day (e.g., Joyful, Sorrowful, Glorious, or Luminous).
-
-Say the Our Father: Recite the "Our Father" prayer.
-
-Say Ten Hail Marys: Say ten "Hail Mary" prayers while meditating on the mystery.
-
-Say the Glory Be: Recite the "Glory Be" prayer.
-
-Add the Fatima Prayer (Optional): Some people choose to add the Fatima Prayer: "O my Jesus, forgive us our sins, save us from the fires of hell, and lead all souls to Heaven, especially those in most need of your mercy."
-
-Announce the Next Mystery: If you wish to continue praying the Rosary, announce the next mystery and repeat steps 7-10.
-
-Conclude with the Hail Holy Queen: After completing the final mystery, recite the "Hail Holy Queen" prayer.
-
-Make the Sign of the Cross: Finish the Rosary by making the Sign of the Cross again.
-
-List of Rosary Mysteries and Their Respective Days:
-
-Joyful Mysteries (Mondays and Saturdays):
-
-The Annunciation
-    The Visitation
-    The Nativity
-    The Presentation of Jesus in the Temple
-    The Finding of Jesus in the Temple
-
-Sorrowful Mysteries (Tuesdays and Fridays):
-    The Agony in the Garden
-    The Scourging at the Pillar
-    The Crowning with Thorns
-    The Carrying of the Cross
-    The Crucifixion and Death of Jesus
-
-Glorious Mysteries (Wednesdays and Sundays):
-    The Resurrection
-    The Ascension
-    The Descent of the Holy Spirit (Pentecost)
-    The Assumption of Mary into Heaven
-    The Coronation of Mary as Queen of Heaven and Earth
-
-Luminous Mysteries (Thursdays):
-    The Baptism of Jesus in the Jordan River
-    The Wedding at Cana (First Miracle)
-    The Proclamation of the Kingdom of God
-    The Transfiguration
-    The Institution of the Holy Eucharist at the Last Supper`,
-    image: require("../assets/bg/prayer-4.jpg"),
   },
   {
     name: "Panalangin kay San Miguel Arkanghel (Prayer to St. Michael the Archangel)",
