@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 import { BottomNavigation, Text } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import KatekismoPage from '../pages/KatekismoPage';
-import PrayerPage from '../pages/PrayersPage';
 import MotherMaryPage from '../pages/MotherMaryPage';
-import PrayerMainPage from '../pages/PrayersMainPage';
+import KatekismoMainPage from '../pages/katekismo/KatekismoMainPage';
+import PrayerMainPage from '../pages/prayer/PrayersMainPage';
 
 const BottomNavigator = () => {
   const [index, setIndex] = React.useState(0);
@@ -20,7 +19,7 @@ const BottomNavigator = () => {
   const renderScene = BottomNavigation.SceneMap({
     prayers: PrayerMainPage,
     motherMary: MotherMaryPage, // You can specify the same page as for "motherMary"
-    katekismo: KatekismoPage,
+    katekismo: KatekismoMainPage,
     // recents: RecentsRoute,
     // notifications: NotificationsRoute,
   });

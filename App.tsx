@@ -3,11 +3,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React, { useEffect, useState } from 'react';
 import BottomNavigator from './src/components/BottomNavigator';
-import PrayerDetailPage from './src/pages/PrayerDetailPage';
+import PrayerDetailPage from './src/pages/prayer/PrayerDetailPage';
 import SplashScreen from './src/pages/SplashScreen';
-import KatekismoDetailPage from './src/pages/KatekismoDetailPage';
-import KatekismoSublistPage from './src/pages/KatekismoSublistPage';
-import PrayerSublistPage from './src/pages/PrayerSublistPage';
+import KatekismoDetailPage from './src/pages/katekismo/KatekismoDetailPage';
+import KatekismoSublistPage from './src/pages/katekismo/KatekismoSublistPage';
+import PrayerSublistPage from './src/pages/prayer/PrayerSublistPage';
 import TopBar from './src/components/TopBar';
 import { selectStateCurrentPrayerLanguage } from './src/redux/selector/selectLanguages';
 

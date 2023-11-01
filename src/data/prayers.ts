@@ -533,8 +533,256 @@ const catholicPrayers = [
     name: `Holy Rosary`,
     content: [
       {
-        name: `Joyful Mystery(Monday-Saturday)`,
+        name: `Joyful Mystery (Monday-Saturday)`,
         content: [
+          {
+            name: `Joyful Mystery`,
+            content: `<p>
+              <b>Creedo.</b>
+              <br />
+              [prayer-1]
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <b>3 Aba ginoong Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 3x.
+              <br />
+              <br />
+              <b>Luwalhati sa Ama</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Unang Misteryo: Ang Pagbabalita ng Anghel sa Mahal na Birhen.</b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Luwalhati sa Diyos</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              <b>Pangalawang Misteryo: Ang Pagdalaw ni Santa Maria kay Santa Isabel.</b>
+              <br />
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              <b>Ikatlong Misteryo: Ang Pagkapanganak ni Hesus sating Panginoon.</b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              <b>Ikaapat na Misteryo: AnAng paghahain sa Templo ng Anak ng Diyos </b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              <b>Ikalimang Misteryo: Ang pagkakakita kay Hesus sa Templo ng Herusalem</b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
+              <br />
+              <br />
+              <br />
+              </p>
+            `,
+            image: require("../assets/bg/prayer-4.jpg"),
+            lang: "tag",
+          },
           {
             name: `Joyful Mystery`,
             content: `<p>
@@ -586,6 +834,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Ikaduhang Misteryo: Ang Pagduaw ni Santa Maria kang Santa Isabel.</b>
               <br />
               <br />
@@ -616,6 +876,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Ikatulong Misteryo: Ang Pagkapanganak kang Hesus atong Ginoo.</b>
               <br />
               <br />
@@ -642,6 +914,18 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
               <br />
               <br />
               <b>Ikaupat nga Misteryo: Ang Paghalad sa Diosnong Bata didto sa Templo sa Jerusalen </b>
@@ -672,6 +956,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Ikalimang Misteryo: Ang Pagwala sa Diosnong Bata ug Paghikaplag Kaniya sa Templo taliwala sa mga makinaadmanon:</b>
               <br />
               <br />
@@ -698,182 +994,41 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Maghimaya ka Rayna
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
+              <br />
               <br />
               <br />
               </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
             lang: "ceb",
-          },
-          {
-            name: `Joyful Mystery`,
-            content: `<p>
-              <b>Creedo.</b>
-              <br />
-              [prayer-1]
-              <br />
-              <br />
-              <b>Ama namin.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <b>3 Aba ginoong Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 3x.
-              <br />
-              <br />
-              <b>Luwalhati sa Ama</b>
-              [prayer-5]
-              <br />
-              <br />
-              <b>Unang Misteryo: Ang Pagbabalita ng Anghel sa Mahal na Birhen.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikaduhang Misteryo: Ang Pagduaw ni Santa Maria kang Santa Isabel.</b>
-              <br />
-              <br />
-              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikatulong Misteryo: Ang Pagkapanganak kang Hesus atong Ginoo.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikaupat nga Misteryo: Ang Paghalad sa Diosnong Bata didto sa Templo sa Jerusalen </b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikalimang Misteryo: Ang Pagwala sa Diosnong Bata ug Paghikaplag Kaniya sa Templo taliwala sa mga makinaadmanon:</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              </p>
-            `,
-            image: require("../assets/bg/prayer-4.jpg"),
-            lang: "tag",
           },
           {
             name: `Joyful Mystery`,
@@ -896,6 +1051,18 @@ const catholicPrayers = [
               <br />
               <b>Glory Be</b>
               [prayer-5]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
               <br />
               <br />
               <b>First Mystery: Annunciation of the Archangel Gabriel to the Blessed Virgin Mary.</b>
@@ -923,6 +1090,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Second Mystery: The visiation of the Blessed Virgin Mary to her cousin Elizabeth.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -946,6 +1125,18 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
               <br />
               <br />
               <b>Third Mystery: The Birth of our Lord Jesus Christ.</b>
@@ -973,6 +1164,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Fourth Mystery: The presentation of our Lord Jesus Christ in the temple.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -998,6 +1201,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Fifth Mystery: Finding the Child Jesus in the Temple.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -1015,6 +1230,42 @@ const catholicPrayers = [
               <br />
               <b>Glory Be</b>
               [prayer-5]
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litany of the Blessed Virgin Mary
+              [prayer-11]
+              <br />
               <br />
               <br />
               </p>
@@ -1051,6 +1302,18 @@ const catholicPrayers = [
             [prayer-7]
             <br />
             <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
             <b>Prímum mystérium gaudiósum: Annuntiatiónem Beátæ Maríæ Vírginis</b>
             <br />
             <br />
@@ -1075,6 +1338,18 @@ const catholicPrayers = [
             <br />
             <br />
             [prayer-7]
+            <br />
+            <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
             <br />
             <br />
             <b>Secúndum mystérium gaudiósum: Visitatiónem Beátæ Maríæ Vírginis</b>
@@ -1103,6 +1378,18 @@ const catholicPrayers = [
             [prayer-7]
             <br />
             <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
             <b>Quartum mystérium gaudiósum : Oblatiónem Dómini nostri Iesu Christi</b>
             <br />
             <br />
@@ -1127,6 +1414,18 @@ const catholicPrayers = [
             <br />
             <br />
             [prayer-7]
+            <br />
+            <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
             <br />
             <br />
             <b>Quintum mystérium gaudiósum: Inventiónem Dómini nostri Iesu Christi in templo</b>
@@ -1155,6 +1454,18 @@ const catholicPrayers = [
             [prayer-7]
             <br />
             <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
             <b>Mysterium Quintum: De Absentia Pueri Dei et Inventione Eius in Templo contra Sapiens:</b>
             <br />
             <br />
@@ -1179,6 +1490,38 @@ const catholicPrayers = [
             <br />
             <br />
             [prayer-7]
+            <br />
+            <br />
+            <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
+            Salve Regina
+            <br />
+            <br />
+            [prayer-6]
+            <br />
+            <br />
+            Memorare
+            <br />
+            <br />
+            [prayer-12]
+            <br />
+            <br />
+            Litaniae Beatae Mariae Virginis
+            [prayer-11]
+            <br />
+            <br />
+            <br />
             </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
@@ -1189,178 +1532,9 @@ const catholicPrayers = [
         isTranslations: true,
       },
       {
-        name: `Sorrowful Mystery(Tuesday-Friday)`,
+        name: `Sorrowful Mystery (Tuesday-Friday)`,
         content: [
-          {
-            name: `Sorrowful Mystery`,
-            content: `<p>
-              <b>Creedo.</b>
-              <br />
-              [prayer-1]
-              <br />
-              <br />
-              <b>Ampo sa Amahan namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <b>Ampo 3 Maghimaya ka Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 3x.
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <b>Unang Misteryo:Ang Kasakit sa Ginoo sa Hardin sa Getsemani.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikaduhang Misteryo:Ang Pagbalibad kang Jesus nga Giputos sa Bato nga Balaodanan.</b>
-              <br />
-              <br />
-              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikatulong Misteryo:Ang Pagtuslok sa Kurunang Tinik kang Jesus.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikaupat nga Misteryo:Ang Pag-angkon sa Krus </b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikalimang Misteryo:Ang Pagsakripisyo ug Pagkamatay ni Jesus sa Krus </b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              </p>
-            `,
-            image: require("../assets/bg/prayer-4.jpg"),
-            lang: "ceb",
-          },
+
           {
             name: `Sorrowful Mystery`,
             content: `<p>
@@ -1412,6 +1586,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Ikalawang Misteryo: Ang Paghampas kay Jesus na Nagagapos sa Haliging Bato.</b>
               <br />
               <br />
@@ -1442,6 +1628,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Ikat-long Misteryo: Ang Pagpuputong ng Koronang Tinik kay Jesus.</b>
               <br />
               <br />
@@ -1468,6 +1666,18 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
               <br />
               <br />
               <b>Ika-apat Misteryo: Ang Pagpasan ng Krus</b>
@@ -1498,6 +1708,18 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
               <b>Ika-limang Misteryo: Ang Pagkapako at Pagkamatay ni Jesus sa Krus:</b>
               <br />
               <br />
@@ -1526,10 +1748,278 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
+              <br />
+              <br />
+              <br />
               </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
             lang: "tag",
+          },
+          {
+            name: `Sorrowful Mystery`,
+            content: `<p>
+              <b>Creedo.</b>
+              <br />
+              [prayer-1]
+              <br />
+              <br />
+              <b>Ampo sa Amahan namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <b>Ampo 3 Maghimaya ka Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 3x.
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Unang Misteryo:Ang Kasakit sa Ginoo sa Hardin sa Getsemani.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <b>Ikaduhang Misteryo:Ang Pagbalibad kang Jesus nga Giputos sa Bato nga Balaodanan.</b>
+              <br />
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <b>Ikatulong Misteryo:Ang Pagtuslok sa Kurunang Tinik kang Jesus.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <b>Ikaupat nga Misteryo:Ang Pag-angkon sa Krus </b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <b>Ikalimang Misteryo:Ang Pagsakripisyo ug Pagkamatay ni Jesus sa Krus </b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Maghimaya ka Rayna
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
+              <br />
+              <br />
+              <br />
+              </p>
+            `,
+            image: require("../assets/bg/prayer-4.jpg"),
+            lang: "ceb",
           },
           {
             name: `Sorrowful Mystery`,
@@ -1579,6 +2069,24 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
               <b>Second Mystery: The Scourging of Jesus at the Pillar.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -1602,6 +2110,24 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
               <br />
               <br />
               <b>Third Mystery: The Crowning of Jesus with Thorns.</b>
@@ -1629,6 +2155,24 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
               <b>Fourth Mystery: The Carrying of the Cross to Mount Calvary by Jesus.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -1654,6 +2198,24 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
               <b>Fifth Mystery:The Crucifixion and Death of Jesus on the Cross .</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -1677,6 +2239,34 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litany of the Blessed Virgin Mary
+              [prayer-11]
               <br />
               <br />
               </p>
@@ -1713,6 +2303,24 @@ const catholicPrayers = [
             [prayer-7]
             <br />
             <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
+            Salve Regina
+            <br />
+            <br />
+            [prayer-6]
+            <br />
+            <br />
             <b>Prímum mystérium gaudiósum: Agonia Iesu in Horto Gethsemane.</b>
             <br />
             <br />
@@ -1737,6 +2345,24 @@ const catholicPrayers = [
             <br />
             <br />
             [prayer-7]
+            <br />
+            <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
+            Salve Regina
+            <br />
+            <br />
+            [prayer-6]
             <br />
             <br />
             <b>Secúndum mystérium gaudiósum: Flagellatio Iesu ad Pilarium</b>
@@ -1765,6 +2391,24 @@ const catholicPrayers = [
             [prayer-7]
             <br />
             <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
+            Salve Regina
+            <br />
+            <br />
+            [prayer-6]
+            <br />
+            <br />
             <b>Quartum mystérium gaudiósum :Coronatio Iesu Spinearum.</b>
             <br />
             <br />
@@ -1789,6 +2433,24 @@ const catholicPrayers = [
             <br />
             <br />
             [prayer-7]
+            <br />
+            <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
+            Salve Regina
+            <br />
+            <br />
+            [prayer-6]
             <br />
             <br />
             <b>Quartum mystérium: Portatio Crucis ad Montem Calvariae ab Iesu</b>
@@ -1817,6 +2479,24 @@ const catholicPrayers = [
             [prayer-7]
             <br />
             <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
+            Salve Regina
+            <br />
+            <br />
+            [prayer-6]
+            <br />
+            <br />
             <b>Quintum Mystérium: Crucifixio et Mors Iesu in Cruce.:</b>
             <br />
             <br />
@@ -1841,6 +2521,38 @@ const catholicPrayers = [
             <br />
             <br />
             [prayer-7]
+            <br />
+            <br />
+            Cor Jesu Sacratissimum
+            <br />
+            <br />
+            [prayer-9]
+            <br />
+            <br />
+            Veni Sancte Spiritus
+            <br />
+            <br />
+            [prayer-8]
+            <br />
+            <br />
+            Salve Regina
+            <br />
+            <br />
+            [prayer-6]
+            <br />
+            <br />
+            Memorare
+            <br />
+            <br />
+            [prayer-12]
+            <br />
+            <br />
+            Litaniae Beatae Mariae Virginis
+            [prayer-11]
+            <br />
+            <br />
+            <br />
+            
             </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
@@ -1853,176 +2565,6 @@ const catholicPrayers = [
       {
         name: `Glorious Mystery (Wendsday-Sunday)`,
         content: [
-          {
-            name: `Glorious Mystery`,
-            content: `<p>
-              <b>Creedo.</b>
-              <br />
-              [prayer-1]
-              <br />
-              <br />
-              <b>Ampo sa Amahan namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <b>Ampo 3 Maghimaya ka Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 3x.
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <b>Unang Misteryo:Ang Mahimayaong Pagkabanhaw sa atong Ginoo.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikaduhang Misteryo:Ang Pagsaka sa Langit sa Anak sa Dios.</b>
-              <br />
-              <br />
-              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikatulong Misteryo:Ang Pagkunsad sa Espiritu Santo sa mga Apostoles ug kang Santa Maria.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikaupat nga Misteryo:Ang Pagpasaka sa Langit sa Mahal nga Birhen Maria.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikalimang Misteryo:Ang Pagpurongpurong sa Mahal nga Birhen Maria nga Rayna sa mga Angheles ug mga Santos.</b>
-              <br />
-              <br />
-              <b>Amahan Namo.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              </p>
-            `,
-            image: require("../assets/bg/prayer-4.jpg"),
-            lang: "ceb",
-          },
           {
             name: `Glorious Mystery`,
             content: `<p>
@@ -2188,10 +2730,286 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
+              <br />
+              <br />
+              <br />
               </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
             lang: "tag",
+          },
+          {
+            name: `Glorious Mystery`,
+            content: `<p>
+              <b>Creedo.</b>
+              <br />
+              [prayer-1]
+              <br />
+              <br />
+              <b>Ampo sa Amahan namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <b>Ampo 3 Maghimaya ka Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 3x.
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Unang Misteryo:Ang Mahimayaong Pagkabanhaw sa atong Ginoo.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Maghimaya ka Rayna
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ikaduhang Misteryo:Ang Pagsaka sa Langit sa Anak sa Dios.</b>
+              <br />
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Maghimaya ka Rayna
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ikatulong Misteryo:Ang Pagkunsad sa Espiritu Santo sa mga Apostoles ug kang Santa Maria.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Maghimaya ka Rayna
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ikaupat nga Misteryo:Ang Pagpasaka sa Langit sa Mahal nga Birhen Maria.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Maghimaya ka Rayna
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ikalimang Misteryo:Ang Pagpurongpurong sa Mahal nga Birhen Maria nga Rayna sa mga Angheles ug mga Santos.</b>
+              <br />
+              <br />
+              <b>Amahan Namo.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Sagradong Kasing Kasing ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Umari ka Espiritu Santo
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Maghimaya ka Rayna
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
+              <br />
+              <br />
+              <br />
+              </p>
+            `,
+            image: require("../assets/bg/prayer-4.jpg"),
+            lang: "ceb",
           },
           {
             name: `Glorious Mystery`,
@@ -2241,6 +3059,24 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
               <b>Second Mystery:The Ascension of Jesus to Heaven.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -2264,6 +3100,24 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
               <br />
               <br />
               <b>Third Mystery:The Descent of the Holy Spirit upon the Apostles and the Blessed Virgin Mary.</b>
@@ -2291,6 +3145,24 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
               <b>Fourth Mystery:The Assumption of the Blessed Virgin Mary into Heaven.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -2314,6 +3186,24 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
               <br />
               <br />
               <b>Fifth Mystery:The Coronation of the Blessed Virgin Mary as Queen of Heaven and Earth.</b>
@@ -2341,6 +3231,32 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litany of the Blessed Virgin Mary
+              [prayer-11]
               </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
@@ -2516,6 +3432,277 @@ const catholicPrayers = [
         name: `Luminous Mystery (Thursday)`,
         content: [
           {
+            name: `Luminous Mystery`,
+            content: `<p>
+              <b>Creedo.</b>
+              <br />
+              [prayer-1]
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <b>3 Aba ginoong Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 3x.
+              <br />
+              <br />
+              <b>Luwalhati sa Ama</b>
+              [prayer-5]
+              <br />
+              <br />
+              <b>Unang Misteryo:Ang Pagbibinyag kay Kristo.</b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ika-lawang Misteryo: Ang Kasalan sa Cana.</b>
+              <br />
+              <br />
+              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ikat-long Misteryo:Ang Pagpapahayag ng Paghahari ng Diyos.</b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ika-apat Misteryo:Ang Pagbabagong Anyo ni Kristo.</b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              <b>Ika-limang Misteryo:Ang Pagtatatag ng Eukaristiya.</b>
+              <br />
+              <br />
+              <b>Ama namin.</b>
+              <br />
+              [prayer-3]
+              <br />
+              <br />
+              <br />
+              <b>10 Santa Maria</b>
+              <br />
+              [prayer-4]
+              <br /> 10x.
+              <br />
+              <br />
+              <br />
+              <b>Glory Be</b>
+              [prayer-5]
+              <br />
+              <br />
+              <br />
+              <br />
+              <b>Fatima Prayer</b>
+              <br />
+              <br />
+              [prayer-7]
+              <br />
+              <br />
+              Banal na Puso ni Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Espiritung Banal
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Aba Po, Santa Mariang Birhen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
+              <br />
+              <br />
+              <br />
+              </p>
+            `,
+            image: require("../assets/bg/prayer-4.jpg"),
+            lang: "tag",
+          },
+          {
             name: `Luminous  Mystery`,
             content: `<p>
               <b>Creedo.</b>
@@ -2680,180 +3867,39 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
-              </p>
-            `,
-            image: require("../assets/bg/prayer-4.jpg"),
-            lang: "ceb",
-          },
-          {
-            name: `Luminous Mystery`,
-            content: `<p>
-              <b>Creedo.</b>
+              Sagradong Kasing Kasing ni Jesus
               <br />
-              [prayer-1]
               <br />
+              [prayer-9]
               <br />
-              <b>Ama namin.</b>
               <br />
-              [prayer-3]
+              Umari ka Espiritu Santo
               <br />
               <br />
-              <b>3 Aba ginoong Maria</b>
+              [prayer-8]
               <br />
-              [prayer-4]
-              <br /> 3x.
               <br />
+              Maghimaya ka Rayna
               <br />
-              <b>Luwalhati sa Ama</b>
-              [prayer-5]
               <br />
+              [prayer-6]
               <br />
-              <b>Unang Misteryo:Ang Pagbibinyag kay Kristo.</b>
               <br />
+              Memorare
               <br />
-              <b>Ama namin.</b>
               <br />
-              [prayer-3]
+              [prayer-12]
               <br />
               <br />
+              Litanya ng Mahal na Birhen Maria
+              [prayer-11]
               <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ika-lawang Misteryo: Ang Kasalan sa Cana.</b>
-              <br />
-              <br />
-              <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
-              <br />
-              <b>Ama namin.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ikat-long Misteryo:Ang Pagpapahayag ng Paghahari ng Diyos.</b>
-              <br />
-              <br />
-              <b>Ama namin.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ika-apat Misteryo:Ang Pagbabagong Anyo ni Kristo.</b>
-              <br />
-              <br />
-              <b>Ama namin.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
-              <br />
-              <br />
-              <b>Ika-limang Misteryo:Ang Pagtatatag ng Eukaristiya.</b>
-              <br />
-              <br />
-              <b>Ama namin.</b>
-              <br />
-              [prayer-3]
-              <br />
-              <br />
-              <br />
-              <b>10 Santa Maria</b>
-              <br />
-              [prayer-4]
-              <br /> 10x.
-              <br />
-              <br />
-              <br />
-              <b>Glory Be</b>
-              [prayer-5]
-              <br />
-              <br />
-              <br />
-              <br />
-              <b>Fatima Prayer</b>
-              <br />
-              <br />
-              [prayer-7]
               <br />
               <br />
               </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
-            lang: "tag",
+            lang: "ceb",
           },
           {
             name: `Glorious Mystery`,
@@ -2903,6 +3949,24 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
               <b>Second Mystery:The Wedding at Cana.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -2926,6 +3990,24 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
               <br />
               <br />
               <b>Third Mystery:The proclamation of The Kingdom of God.</b>
@@ -2953,6 +4035,24 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
               <b>Fourth Mystery:The Transfugiration of Jesus on Mount Tabor.</b>
               <br />
               <b>Say an Our Father: Recite the "Our Father" prayer (the Lord's Prayer).</b>
@@ -2976,6 +4076,24 @@ const catholicPrayers = [
               <br />
               <br />
               [prayer-7]
+              <br />
+              <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
               <br />
               <br />
               <b>Fifth Mystery:The institution of The Eucharist.</b>
@@ -3003,6 +4121,32 @@ const catholicPrayers = [
               [prayer-7]
               <br />
               <br />
+              Sacred Heart of Jesus
+              <br />
+              <br />
+              [prayer-9]
+              <br />
+              <br />
+              Come Holy Spirit
+              <br />
+              <br />
+              [prayer-8]
+              <br />
+              <br />
+              Hail Holy Queen
+              <br />
+              <br />
+              [prayer-6]
+              <br />
+              <br />
+              Memorare
+              <br />
+              <br />
+              [prayer-12]
+              <br />
+              <br />
+              Litany of the Blessed Virgin Mary
+              [prayer-11]
               </p>
             `,
             image: require("../assets/bg/prayer-4.jpg"),
@@ -3177,7 +4321,409 @@ const catholicPrayers = [
     ],
     image: require("../assets/bg/prayer-4.jpg"),
   },
-  
+  {
+    id:'prayer-11',
+    name: "Litany of the Blessed Virgin Mary",
+    content: [
+        {
+            name: `Litanya sa Mahal na Birheng Maria`,
+            content: `
+                Panginoon, maawa ka sa amin.  <br>
+                Kristo, maawa ka sa amin.  <br>
+                Panginoon, maawa ka sa amin.  <br>
+                Kristo, pakinggan mo kami. Kristo, paka-pakinggan mo kami.  <br>
+                Diyos Ama sa langit, Maawa ka sa amin.  <br>
+                Diyos Anak na tumubos sa sanglibutan,  <br>
+                Diyos Espiritu Santo,  <br>
+                Santisima Trinidad na tatlong Persona at iisang Diyos,  <br><br>
+                Santa Maria, ipanalangin mo kami.  <br>
+                Santang Ina ng Diyos,  <br>
+                Santang Birhen ng mga Birhen,  <br>
+                Ina ng Kristo,  <br>
+                Ina ng grasya ng Diyos,  <br>
+                Inang kasakdal-sakdalan,  <br>
+                Inang walang malay sa kahalayan, <br>
+                Inang 'di malapitan ng masama, <br>
+                Inang kalinis-linisan, <br>
+                Inang ipinaglihi na walang kasalanan, <br>
+                Inang kaibig-ibig, <br>
+                Inang kataka-taka, <br>
+                Ina ng mabuting kahatulan, <br>
+                Ina ng may gawa sa lahat, <br>
+                Ina ng mapag-adya, <br>
+                Birheng kapaham-pahaman, <br>
+                Birheng dapat igalang, <br>
+                Birheng dapat ipagbantog, <br>
+                Birheng makapangyayari, <br>
+                Birheng maawain, <br>
+                Birheng matibay na loob sa magaling, <br>
+                Salamin ng katuwiran, <br>
+                Luklukan ng karungunan, <br>
+                Mula ng tuwa namin, <br>
+                Sisidlan ng kabanalan, <br>
+                Sisidlan ng bunyi at bantog, <br>
+                Sisidlan ng bukod-tanging katimtimann Rosang bulaklak ng 'di mapuspos ng bait sa tao ang halaga, <br>
+                Torre in David, <br>
+                Torre na garing, <br>
+                Bahay na ginto, <br>
+                Kaban ng tipan, <br>
+                Pinto sa langit, <br>
+                Talang maliwanag, <br>
+                Mapagpagaling sa mga maysakit, <br>
+                Pagsasakdalan ng mga taong makasalanan, <br>
+                Mapang-aliw sa nangagdadalamhati, <br>
+                Mapag-ampon sa mga kristiyano, <br>
+                Hari ng mga anghel, <br>
+                Hari ng mga patriarka, <br>
+                Hari ng mga propeta, <br>
+                Hari ng mga apostol, <br>
+                Hari ng mga martir, <br>
+                Hari ng mga confesor, <br>
+                Hari ng mga Birhen, <br>
+                Hari ng lahat ng mga santo, <br>
+                Haring ipinaglihi na 'di nagmana ng salang orihinal, <br>
+                Haring iniakyat sa langit, <br>
+                Hari ng kasantu-santosang Rosaryo, <br>
+                Hari ng kapayapaan.  <br>
+
+                <br>
+                <br>
+                
+                Kordero ng Diyos na nakawawala ng kasalanan ng sanlibutan. Patawarin mo po kami, Panginoon. <br>
+                Kordero ng Diyos na nakawawala ng kasalanan ng sanlibutan. Paka-pakinggan mo po kami, Panginoon. <br>
+                Kordero ng Diyos na nakawawala ng kasalanan ng sanlibutan. Maawa ka sa amin. <br>
+                Ipanalangin mo kami, Santang Ina ng Diyos. <br>
+                Nang kami ay maging dapat makinabang ng mga pangako ni Hesukristong Panginoon.<br>
+                Manalangin Tayo- Panginoon naming Diyos, kasihan mo nawa ang aming mga kaluluwa ng Iyong mahal na grasya, at yayamang dahilan sa pananalita ng anghel, ay nakilala namin ang pagkakatawang tao in Hesukristong Anak Mo. Pakundangan sa mahal Niyang pagpapakasakit at pagkamatay sa Krus, ay papakinabangin Mo kami ng Kanyang pagkabuhay na mag-uli sa kaluwalhatian sa langit. Alang-alang kay Hesukristo ring Panginoon namin. Siya Nawa. ~ Sa ngalan ng Ama, at ng Anak, at ng Espiritu Santo. Amen. <br>
+              `, 
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "tag",
+        },
+        {
+            name: `Litanya sa Mahal na Birheng Maria`,
+            content: `
+              Ginoo, Kaloy-i Kami<br>
+              Kristo Kaloy-i Kami<br>
+              Ginoo, Kaloy-i Kami<br>
+              Kristo, Dungga Kami<br>
+              Kristo, Pamatia Kami<br>
+              Dios, Amahan sa Langit, Kaloy-i Kami<br>
+              Dios Anak Manunubos sa Kalibutan, Kaloy-i Kami<br>
+              Dios Espiritu Santo, Kaloy-i Kami<br>
+              Santa Trinidad, Dios nga usa, Kaloy-i Kami<br><br>
+
+              IG-AMPO MO KAMI
+              Santa Maria, <br>
+              Santa nga Inahan sa Dios, <br>
+              Santa nga Birhen sa mga Birhen, <br>
+              Inahan Ni Kristo, <br>
+              Inahan sa Grasya sa Dios, <br>
+              Inahan nga putli, <br>
+              Inahan nga wala hilabti, <br>
+              Inahan nga sa sala wala mabuling, <br>
+              Inahan Nga Buotan, <br>
+              Inahan Nga Takus Dayegon, <br>
+              Inahan sa Kanunayng Panabang, <br>
+              Inahan sa Magbubuhat, <br>
+              Inahan sa Manluluwas(Manunubos), <br>
+              Birhen nga sa Kaalam walay Ingon, <br>
+              Birhen nga Gitahud Namo, <br>
+              Birhen kansang Kadayganan Giawit Namo, <br>
+              Birhen nga Gamhanan, <br>
+              Bitrhen nga Maloloy-on, <br>
+              Birhen nga Matoohon, <br>
+              Salamin sa Katarungan, <br>
+              Lingkoranan sa Kinaadman, <br>
+              Hinungdan sa Among Kalipay, <br>
+              Kalis sa Espiritohanon, <br>
+              Kalis sa Kadungganan, <br>
+              Mabulokong Kalis sa Paghalad, <br>
+              Rosa nga Dili Matukib, <br>
+              Lantawan ni David, <br>
+              Lantawan nga Garing, <br>
+              Balay nga Bulawan, <br>
+              Arka sa Kasabotan, <br>
+              Ganghaan sa Langit, <br>
+              Bitoon sa Kabuntagon, <br>
+              Kaayohan sa mga Masakiton, <br>
+              Dalangpanan sa mga Makasasala, <br>
+              Maglilipay sa Mga nanagsubo, <br>
+              Hinabang sa mga Kristiyanos, <br>
+              Rayna sa mga Angheles, <br>
+              Rayna sa mga Patriyarka, <br>
+              Rayna sa mga Propeta, <br>
+              Rayna sa mga Apostoles, <br>
+              Rayna sa mga Martires, <br>
+              Rayna sa mga Kompesores, <br>
+              Rayna sa Mga Birhen, <br>
+              Rayna sa mga Santos, <br>
+              Rayna nga Gipanamkon nga walay sala'ng Panulondon, <br>
+              Rayna sa Santos Uyamot nga Rosaryo, <br>
+              Rayna sa Pamilya, <br>
+              Rayna sa Kalinaw, <br><br>
+
+
+              P: Kordero sa Dios Nga nagawagtang sa Sala sa kalibutan<br>
+              R: Pasayloa kami, Ginoo<br>
+              P: Kordero sa Dios Nga nagawagtang sa Sala sa kalibutan<br>
+              R: Pamatia kami, Ginoo<br>
+              P: Kordero sa Dios Nga nagawagtang sa Sala sa kalibutan<br>
+              R: kaloy-i Kami, Ginoo<br>
+              P: Ig-ampo mo kami Santa nga Inahan sa Dios<br>
+              R: Aron mahimo kaming takos sa mga saad ni Jesukristo. Amen. <br>
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "ceb",
+        },
+        {
+            name: `Litany of the Blessed Virgin Mary`,
+            content: `
+              Lord, have mercy on us. Christ, have mercy on us.<br>
+              Lord, have mercy on us. Christ hear us. Christ, graciously hear us.<br>
+
+              God the Father of heaven, Have mercy on us.<br>
+              God the Son, Redeemer of the world, Have mercy on us.<br>
+              God the Holy Spirit, Have mercy on us.<br>
+              Holy Trinity, one God, Have mercy on us.<br><br>
+
+              Holy Mary,  Pray for us. (repeat after each line)<br>
+              Holy Mother of God,<br>
+              Holy Virgin of virgins,<br>
+              Mother of Christ,<br>
+              Mother of the Church,<br>
+              Mother of mercy,<br>
+              Mother of divine grace,<br>
+              Mother of hope,<br>
+              Mother most pure,<br>
+              Mother most chaste,<br>
+              Mother inviolate,<br>
+              Mother undefiled,<br>
+              Mother most amiable,<br>
+              Mother most admirable,<br>
+              Mother of good counsel,<br>
+              Mother of our Creator,<br>
+              Mother of our Savior,<br>
+              Virgin most prudent,<br>
+              Virgin most venerable,<br>
+              Virgin most renowned,<br>
+              Virgin most powerful,<br>
+              Virgin most merciful,<br>
+              Virgin most faithful,<br>
+              Mirror of justice,<br>
+              Seat of wisdom,<br>
+              Cause of our joy,<br>
+              Spiritual vessel,<br>
+              Vessel of honor,<br>
+              Singular vessel of devotion,<br>
+              Mystical rose,<br>
+              Tower of David,<br>
+              Tower of ivory,<br>
+              House of gold,<br>
+              Ark of the covenant,<br>
+              Gate of heaven,<br>
+              Morning star,<br>
+              Health of the sick,<br>
+              Refuge of sinners,<br>
+              Comfort of Migrants,<br>
+              Comforter of the afflicted,<br>
+              Help of Christians,<br>
+              Queen of Angels,<br>
+              Queen of Patriarchs,<br>
+              Queen of Prophets,<br>
+              Queen of Apostles,<br>
+              Queen of Martyrs,<br>
+              Queen of Confessors,<br>
+              Queen of Virgins,<br>
+              Queen of all Saints,<br>
+              Queen conceived without original sin,<br>
+              Queen assumed into heaven,<br>
+              Queen of the most holy Rosary,<br>
+              Queen of Families,<br>
+              Queen of Peace,<br><br><br>
+
+              Lamb of God, you take away the sins of the world, Spare us, O Lord.<br>
+              Lamb of God, you take away the sins of the world, Graciously hear us, O Lord.<br>
+              Lamb of God, you take away the sins of the world, Have mercy on us.<br>
+              Pray for us, O holy Mother of God, That we may be made worthy of the promises of Christ.<br>
+              Let us pray, Grant, we beseech you, Lord God, that we your servants may rejoice in continual health of mind and body and, by the glorious intercession of Blessed Mary, ever Virgin, may we be delivered from present sorrow to delight in joy eternal. Through Christ our Lord. Amen.<br>
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "eng",
+        },
+        {
+            name: `Litaniae Beatae Mariae Virginis`,
+            content: `
+              Kyrie, eleison.<br>
+              Christe eleison.<br>
+              Kyrie eleison.<br>
+              Christe, audi nos.<br>
+              Christe, exaudi nos.<br>
+              Pater de cælis, Deus, miserere nobis.<br>
+              Fili, Redemptor mundi, miserere nobis.<br>
+              Spiritus Sancte, Deus, miserere nobis.<br>
+              Sancta Trinitas, unus Deus, miserere nobis.<br>
+
+              Sancta Maria,<br>
+              ora pro nobis.<br>
+              Sancta Dei Genitrix,<br>
+              Sancta Virgo virginum,<br>
+              Mater Christi,<br>
+              Mater divinæ gratiæ,<br>
+              Mater purissima,<br>
+              Mater castissima,<br>
+              Mater inviolata,<br>
+              Mater intemerata,<br>
+              Mater amabilis,<br>
+              Mater admirabilis,<br>
+              Mater boni consilii,<br>
+              Mater Creatoris,<br>
+              Mater Salvatoris,<br>
+              Virgo prudentissima,<br>
+              Virgo veneranda,<br>
+              Virgo prædicanda,<br>
+              Virgo potens,<br>
+              Virgo clemens,<br>
+              Virgo fidelis,<br>
+              Speculum justitiæ,<br>
+              Sedes sapientiæ,<br>
+              Causa nostra lætitiæ,<br>
+              Vas spirituale,<br>
+              Vas honorabile,<br>
+              Vas insigne devotionis,<br>
+              Rosa mystica,<br>
+              Turris Davidica,<br>
+              Turris eburnea,<br>
+              Domus aurea,<br>
+              Fœderis arca,<br>
+              Janua cæli,<br>
+              Stella matutina,<br>
+              Salus infirmorum,<br>
+              Refugium peccatorum,<br>
+              Consolatrix afflictorum,<br>
+              Auxilium Christianorum,<br>
+              Regina Angelorum,<br>
+              Regina Patriarcharum,<br>
+              Regina Prophetarum,<br>
+              Regina Apostolorum,<br>
+              Regina Martyrum,<br>
+              Regina Confessorum,<br>
+              Regina Virginum,<br>
+              Regina Sanctorum omnium,<br>
+              Regina sine labe originali concepta,<br>
+              Regina sacratissimi Rosarii,<br>
+              Regina pacis,<br><br>
+
+              Agnus Dei, qui tollis peccata mundi, parce nobis, Domine. <br>
+              Agnus Dei, qui tollis peccata mundi, exaudi nos, Domine. <br>
+              Agnus Dei, qui tollis peccata mundi, miserere nobis. <br><br>
+
+              V. Ora pro nobis, sancta Dei Genitrix. <br>
+              R. Ut digni efficiamur promissionibus Christi. <br><br>
+
+              Oremus.<br><br>
+
+              Concede nos famulus tuos, quæsumus, Domine Deus,<br>
+              perpetua mentis et corporis sanitate gaudere:<br>
+              et gloriosa beatæ Mariæ semper Virginis intercessione,<br>
+              a præsenti liberari tristitia, et æterna perfrui lætitia.<br>
+              Per Christum Dominum nostrum.<br>
+              Amen.
+
+            `,
+            image: require("../assets/bg/prayer-5.jpg"),
+            lang: "lat",
+        },
+    ],
+    isTranslations: true,
+    image: require("../assets/bg/prayer-14.webp"),
+  },
+  {
+    id:'prayer-12',
+    name: "Memorare",
+    content: [
+        {
+            name: `Ang Memorare`,
+            content: `
+              Hinumdoman mo O mahimayaon uyamot nga Birhen Maria, <br>
+              nga wala pa gyud dungga nga may usa nga midangop sa imong panalipod, <br>
+              nangayo sa imong panabang ug pangaliya sa pagpangama nga imong gibiyaan. <br>
+              Dinasig niining pagsalig, <br>
+              nagadangop kami kanimo O Ulay sa tanang mga ulay, <br>
+              among Inahan, kanimo kami miduol sa imong atubangan, <br>
+              ania kami puno sa kasal-anan ug kasubo.<br>
+              O Inahan sa Dios, <br>
+              ayaw tamaya ang among pangaliya, <br>
+              hinono-a luwasa kami ug ihatag ang among pangamuyo. <br>
+              Amen
+              `, 
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "tag",
+        },
+        {
+            name: `Ang Memorare`,
+            content: `
+              Alalahanin mo, oh lubhang mahabaging Birhen Maria,<br>
+              Na kailan ma’y di-narinig na may dumulog sa iyong pag-aampon,<br>
+              Humingi ng Iyong tulong at nagmamakaawa ng Iyong saklolo,<br>
+              Na Iyong pinabayaan.<br>
+              Dala ng pag-asa na ito,<br>
+              Dumudulog ako sa Iyo oh Birhen ng mga birhen,<br>
+              Ina, sa Iyo ako’y lumalapit,<br>
+              Sa Iyo ako’y humaharap na makasalanan at namimighati.<br>
+              Oh Ina ng walang hanggang berbo,<br>
+              Huwag mo akong siphayuin, ang aking pagluhog,<br>
+              Bagkus, sa Iyong habag,<br>
+              Pakinggan mo ako at pakapakinggan. <br>
+              Siya nawa.
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "ceb",
+        },
+        {
+            name: `The Memorare`,
+            content: `
+              Remember, O most gracious Virgin Mary, <br>
+              that never was it known  <br>
+              that anyone who fled to thy protection,  <br>
+              implored thy help,  <br>
+              or sought thy intercession,  <br>
+              was left unaided.  <br>
+              Inspired by this confidence  <br>
+              I fly unto thee,  <br>
+              O Virgin of virgins, my Mother.  <br>
+              To thee do I come,  <br>
+              before thee I stand,  <br>
+              sinful and sorrowful.  <br>
+              O Mother of the Word Incarnate, <br>
+              despise not my petitions,  <br>
+              but in thy mercy hear and answer me.  <br>
+              Amen.    
+            `,
+            image: require("../assets/bg/prayer-12.jpg"),
+            lang: "eng",
+        },
+        {
+            name: `Memorare`,
+            content: `
+              MEMORARE, O piissima Virgo Maria, <br>
+              non esse auditum a saeculo, quemquam ad tua currentem praesidia, <br>
+              tua implorantem auxilia, tua petentem suffragia, <br>
+              esse derelictum. <br>
+              Ego tali animatus confidentia, <br>
+              ad te, Virgo Virginum, Mater, curro, <br>
+              ad te venio, coram te gemens peccator assisto. <br>
+              Noli, Mater Verbi, <br>
+              verba mea despicere; <br>
+              sed audi propitia et exaudi. <br>
+              Amen.
+                `,
+            image: require("../assets/bg/prayer-5.jpg"),
+            lang: "lat",
+        },
+    ],
+    isTranslations: true,
+    image: require("../assets/bg/prayer-14.webp"),
+  },
   {
     name: "Pagsisisi (Act of Contrition)",
     content:

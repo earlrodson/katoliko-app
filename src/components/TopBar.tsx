@@ -5,7 +5,7 @@ import { Appbar, Text } from 'react-native-paper';
 import { selectStatePage } from '../redux/selector/selectPage';
 
 const TopBar = (props: any) => {
-  const { setSelectedLanguage, selectedLanguage, backToPage, selectStateLanguages } = props;
+  const { setSelectedLanguage, selectedLanguage, backToPage, selectStateLanguages = [] } = props;
 
   const changeLanguage = (language: string) => {
     setSelectedLanguage(language);
