@@ -3,21 +3,21 @@ import { View, Text, StyleSheet } from 'react-native';
 import LottieView from 'lottie-react-native'; // Import LottieView
 import LinearGradient from 'react-native-linear-gradient';
 
-const SplashScreen = ({ navigation }: any) => {
+const SplashScreen = () => {
 
-  const [isSplash, setIsSplash] = useState(true);
-  useEffect(() => {
-    // Simulate a delay for the splash screen (e.g., 2 seconds)
-    setTimeout(() => {
-      // Navigate to your main screen (e.g., BottomNavigator)
-      navigation.navigate('KatolikoApp');
-    }, 2500);
-  }, []);
+  // const [isSplash, setIsSplash] = useState(true);
+  // useEffect(() => {
+  //   // Simulate a delay for the splash screen (e.g., 2 seconds)
+  //   setTimeout(() => {
+  //     // Navigate to your main screen (e.g., BottomNavigator)
+  //     navigation.navigate('KatolikoApp');
+  //   }, 2500);
+  // }, []);
 
-  useEffect(() => {
-    if(!isSplash) {return;}
-    setIsSplash(false)
-  },[isSplash])
+  // useEffect(() => {
+  //   if(!isSplash) {return;}
+  //   setIsSplash(false)
+  // },[isSplash])
 
   return (
     <LinearGradient
@@ -43,6 +43,8 @@ const SplashScreen = ({ navigation }: any) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    position: 'relative',
+    zIndex: 1
   },
   content: {
     flex: 1,

@@ -27,19 +27,20 @@ const KatekismoMainPage = () => {
     }
 
     return (
-        <View>
-            {isList && pageType == 'main'  ? (
-                <KatekismoPage setItem={setItem} setIsList={setIsList} setPageType={setPageType} />
-            ) : isList && pageType == 'sublist'  ? (
-                <KatekismoSublistPage item={item} setItem={setItem} setIsList={setIsList} setPageType={setPageType}   />
-            ) : (
-                <>
-                    <TopBar setSelectedLanguage={setSelectedLanguage} selectedLanguage={selectedLanguage} backToPage={backToPage} selectStateLanguages={selectStateLanguages}/>
-                    <KatekismoDetailPage item={item} selectedLanguage={selectedLanguage} setselectStateLanguages={setselectStateLanguages} setSelectedLanguage={setSelectedLanguage} />
-                </>
-            )}
-
-        </View>
+        <>
+            <View>
+                {isList && pageType == 'main' ? (
+                    <KatekismoPage setItem={setItem} setIsList={setIsList} setPageType={setPageType} />
+                ) : isList && pageType == 'sublist' ? (
+                    <KatekismoSublistPage item={item} setItem={setItem} setIsList={setIsList} setPageType={setPageType} />
+                ) : (
+                    <>
+                        <TopBar setSelectedLanguage={setSelectedLanguage} selectedLanguage={selectedLanguage} backToPage={backToPage} selectStateLanguages={selectStateLanguages} />
+                        <KatekismoDetailPage item={item} selectedLanguage={selectedLanguage} setselectStateLanguages={setselectStateLanguages} setSelectedLanguage={setSelectedLanguage} />
+                    </> 
+                )}
+            </View>
+        </>
     );
 };
 

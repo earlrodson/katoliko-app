@@ -1,4 +1,4 @@
-import { FlatList, View } from "react-native";
+import { FlatList, StyleSheet, View } from "react-native";
 import { Divider, List, Searchbar } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import catholicCatechismTopics from "../../data/katekismoTableOfContents";
@@ -34,18 +34,33 @@ const KatekismoPage = (props: any) => {
     );
 
     return (
-    <View>
-        <Searchbar
-                placeholder="Search prayers"
-                onChangeText={(query) => setSearchQuery(query)} // Update searchQuery when text changes
-                value={searchQuery}
-            />
-        <FlatList
-            data={filteredData}
-            renderItem={renderItem}
-            keyExtractor={(item) => item.name}
-        />
-    </View>
+        <View >
+            <View style={styles.container}>
+                <Searchbar
+                    placeholder="Search prayers"
+                    onChangeText={(query) => setSearchQuery(query)}
+                    value={searchQuery}
+                    style={styles.searchBar}
+                />
+            </View>
+
+            <FlatList data={filteredData} renderItem={renderItem} keyExtractor={(item) => item.name} />
+        </View>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flexDirection: "row",
+        alignItems: "center",
+    },
+    menuIcon: {
+        marginRight: 8, // Adjust the margin as needed
+    },
+    searchBar: {
+        flex: 1,
+        borderLeftWidth: 0,
+    },
+});
+
 export default KatekismoPage;
