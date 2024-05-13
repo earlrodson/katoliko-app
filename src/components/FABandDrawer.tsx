@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 16,
+    position: 'absolute'
   },
   navigationContainer: {
     backgroundColor: '#ecf0f1',

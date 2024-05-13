@@ -5,23 +5,25 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import MotherMaryPage from '../pages/MotherMaryPage';
 import KatekismoMainPage from '../pages/katekismo/KatekismoMainPage';
 import PrayerMainPage from '../pages/prayer/PrayersMainPage';
+import HomePage from '../pages/HomePage';
+import NewsPage from '../pages/NewsPage';
 
 const BottomNavigator = () => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
+    { key: 'home', title: 'Home', customIcon: require('../assets/FinalKAicon.png') },
     { key: 'prayers', title: 'Dasal', focusedIcon: 'hands-pray', unfocusedIcon: 'hands-pray' },
-    { key: 'motherMary', customIcon: require('../assets/FinalKAicon.png') },
+    // { key: 'motherMary', customIcon: require('../assets/FinalKAicon.png') },
     { key: 'katekismo', title: 'Katekismo', focusedIcon: 'book-multiple', unfocusedIcon: 'book-multiple-outline' },
-    // { key: 'recents', title: 'Recents', focusedIcon: 'history' },
-    // { key: 'notifications', title: 'Notifications', focusedIcon: 'bell', unfocusedIcon: 'bell-outline' },
+    { key: 'news', title: 'News', focusedIcon: 'bell', unfocusedIcon: 'bell-outline' },
   ]);
 
   const renderScene = BottomNavigation.SceneMap({
+    home: HomePage, // You can specify the same page as for "motherMary"
     prayers: PrayerMainPage,
     motherMary: MotherMaryPage, // You can specify the same page as for "motherMary"
     katekismo: KatekismoMainPage,
-    // recents: RecentsRoute,
-    // notifications: NotificationsRoute,
+    news: NewsPage,
   });
 
   return (
@@ -51,6 +53,17 @@ const BottomNavigator = () => {
                 </Text>
               </View>
             );
+          } 
+          else if (route.key === 'home') {
+            // If the route is "motherMary," render the custom logo and hide the label
+            return (
+              <View style={homeStyles.customIconContainer}>
+                <Image
+                  source={route.customIcon}
+                  style={[homeStyles.customIcon, { tintColor: color }]}
+                />
+              </View>
+            );
           } else {
             // Render the MaterialCommunityIcons for other routes
             return (
@@ -73,6 +86,19 @@ const styles = StyleSheet.create({
   },
   customIconText: {
     fontSize: 12, // Adjust the font size as needed
+  },
+});
+
+const homeStyles = StyleSheet.create({
+  customIconContainer: {
+    alignItems: 'center', // Center vertically
+  },
+  customIcon: {
+    width: 23, // Adjust the size as needed
+    height: 23, // Adjust the size as needed
+  },
+  customIconText: {
+    fontSize: 11, // Adjust the font size as needed
   },
 });
 

@@ -104,9 +104,6 @@ const App = () => {
           {/* Add more screens if needed */}
         </Stack.Navigator>
       </NavigationContainer>
-      {!isSplash &&
-          <FABandDrawer />
-      }
     </>
   );
 };
