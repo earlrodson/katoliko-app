@@ -11,6 +11,7 @@ import { RootStackParamList } from '../navigationTypes';
 import PrayersScreen from '../screens/PrayersScreen';
 import ApologeticsScreen from '../screens/ApologeticsScreen';
 import MoreScreen from '../screens/MoreScreen';
+import CatechismScreen from '../screens/CatechismScreen';
 
 const Tab = createMaterialBottomTabNavigator();
 const Stack = createStackNavigator<RootStackParamList>();
@@ -20,6 +21,7 @@ function HomeStackNavigator() {
     <Stack.Navigator>
       <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
       <Stack.Screen name="Profile" component={ProfileScreen} />
+      <Stack.Screen name="Catechism" component={CatechismScreen} />
     </Stack.Navigator>
   );
 }
@@ -31,8 +33,9 @@ function BottomTabsNavigator() {
         initialRouteName="HomeTab"
         activeColor="#7900ff"
         inactiveColor="#baaacc"
+        activeIndicatorStyle={{ backgroundColor: 'transparent' }}
         barStyle={{ backgroundColor: '#f8f8f8' }}
-        shifting={false} // Ensure shifting is disabled
+        shifting={false} 
       >
         <Tab.Screen
           name="HomeTab"
@@ -44,7 +47,7 @@ function BottomTabsNavigator() {
                 name="home"
                 color={color}
                 size={26}
-                style={{ backgroundColor: focused ? 'transparent' : 'transparent' }}
+                style={{ backgroundColor: 'transparent' }}
               />
             ),
           }}
@@ -59,7 +62,7 @@ function BottomTabsNavigator() {
                 name="hands-pray"
                 color={color}
                 size={26}
-                style={{ backgroundColor: focused ? 'transparent' : 'transparent' }}
+                style={{ backgroundColor: 'transparent' }}
               />
             ),
           }}
@@ -74,7 +77,7 @@ function BottomTabsNavigator() {
                 name="shield-cross-outline"
                 color={color}
                 size={26}
-                style={{ backgroundColor: focused ? 'transparent' : 'transparent' }}
+                style={{ backgroundColor: 'transparent' }}
               />
             ),
           }}
@@ -89,7 +92,7 @@ function BottomTabsNavigator() {
                 name="menu"
                 color={color}
                 size={26}
-                style={{ backgroundColor: focused ? 'transparent' : 'transparent' }}
+                style={{ backgroundColor: 'transparent' }}
               />
             ),
           }}

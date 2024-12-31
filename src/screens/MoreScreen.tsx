@@ -2,8 +2,10 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { Appbar, Drawer, Avatar } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
 
 const MoreScreen = () => {
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <Appbar.Header>
@@ -20,7 +22,7 @@ const MoreScreen = () => {
           icon={({ color, size }) => <MaterialCommunityIcons name="book-open-variant" size={size} color={color} />}
           label="Catechism of the Catholic Church"
           style={styles.menuItem}
-          onPress={() => {}}
+          onPress={() => navigation.navigate('Catechism')}
         />
         <Drawer.Item
           icon={({ color, size }) => <MaterialCommunityIcons name="bookmark" size={size} color={color} />}
