@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "title": "Glorious Mysteries",
+  "mysteries": [
+    { "id": 1, "title": "The Resurrection", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 2, "title": "The Ascension", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 3, "title": "The Descent of the Holy Spirit", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 4, "title": "The Assumption of the Blessed Virgin Mary", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 5, "title": "The Coronation of the Blessed Virgin Mary", "prayers": ["[Hail Mary] x 10", "Glory Be"] }
+  ]
+}

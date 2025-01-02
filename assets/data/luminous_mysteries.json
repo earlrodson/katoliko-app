@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "title": "Luminous Mysteries",
+  "mysteries": [
+    { "id": 1, "title": "The Baptism of Jesus in the Jordan", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 2, "title": "The Wedding at Cana", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 3, "title": "The Proclamation of the Kingdom of God", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 4, "title": "The Transfiguration", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 5, "title": "The Institution of the Eucharist", "prayers": ["[Hail Mary] x 10", "Glory Be"] }
+  ]
+}

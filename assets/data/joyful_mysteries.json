@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "title": "Joyful Mysteries",
+  "mysteries": [
+    { "id": 1, "title": "The Annunciation", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 2, "title": "The Visitation", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 3, "title": "The Nativity of Jesus", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 4, "title": "The Presentation of Jesus in the Temple", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+    { "id": 5, "title": "The Finding of Jesus in the Temple", "prayers": ["[Hail Mary] x 10", "Glory Be"] }
+  ]
+}

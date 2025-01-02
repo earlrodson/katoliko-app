@@ -1,0 +1,8 @@
+{
+  "mysteries": [
+    { "id": 1, "title": "Joyful Mysteries", "file": "joyful-mysteries.json" },
+    { "id": 2, "title": "Sorrowful Mysteries", "file": "sorrowful-mysteries.json" },
+    { "id": 3, "title": "Glorious Mysteries", "file": "glorious-mysteries.json" },
+    { "id": 4, "title": "Luminous Mysteries", "file": "luminous-mysteries.json" }
+  ]
+}

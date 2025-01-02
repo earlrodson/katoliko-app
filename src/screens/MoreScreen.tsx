@@ -3,9 +3,13 @@ import { View, Text, StyleSheet } from 'react-native';
 import { Appbar, Drawer, Avatar } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
+import { RootStackParamList } from '../navigationTypes';
+import { StackNavigationProp } from '@react-navigation/stack';
 
 const MoreScreen = () => {
-  const navigation = useNavigation();
+  type NavigationProp = StackNavigationProp<RootStackParamList>;
+  const navigation = useNavigation<NavigationProp>();
+  
   return (
     <View style={styles.container}>
       <Appbar.Header>

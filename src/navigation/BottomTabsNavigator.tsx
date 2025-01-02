@@ -1,6 +1,6 @@
 // src/navigation/BottomTabsNavigator.tsx
 
-import React from 'react';
+import React, { Suspense } from 'react';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -12,19 +12,53 @@ import PrayersScreen from '../screens/PrayersScreen';
 import ApologeticsScreen from '../screens/ApologeticsScreen';
 import MoreScreen from '../screens/MoreScreen';
 import CatechismScreen from '../screens/CatechismScreen';
+import { View } from 'react-native';
+import { ActivityIndicator } from 'react-native-paper';
 
 const Tab = createMaterialBottomTabNavigator();
 const Stack = createStackNavigator<RootStackParamList>();
+// Function to load CatechismScreen dynamically with Suspense
+const LazyCatechismScreen = React.lazy(() => import('../screens/CatechismScreen'));
 
 function HomeStackNavigator() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
       <Stack.Screen name="Profile" component={ProfileScreen} />
-      <Stack.Screen name="Catechism" component={CatechismScreen} />
+      <Stack.Screen name="Catechism">
+        {() => (
+          <Suspense fallback={<LoadingIndicator />}>
+            <CatechismScreen />
+          </Suspense>
+        )}
+      </Stack.Screen>
     </Stack.Navigator>
   );
 }
+
+function MoreStackNavigator() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Home" component={MoreScreen} options={{ headerShown: false }}  />
+      <Stack.Screen name="Catechism">
+        {() => (
+          <Suspense fallback={<LoadingIndicator />}>
+            <CatechismScreen />
+          </Suspense>
+        )}
+      </Stack.Screen>
+    </Stack.Navigator>
+  );
+}
+
+
+
+const LoadingIndicator = () => (
+  <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <ActivityIndicator size="large" />
+  </View>
+);
+
 
 function BottomTabsNavigator() {
   return (
@@ -84,7 +118,7 @@ function BottomTabsNavigator() {
         />
         <Tab.Screen
           name="More"
-          component={MoreScreen}
+          component={MoreStackNavigator}
           options={{
             tabBarLabel: 'More',
             tabBarIcon: ({ color, focused }) => (

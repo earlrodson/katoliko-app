@@ -1,0 +1,12 @@
+{
+    "id": 2,
+    "title": "Sorrowful Mysteries",
+    "mysteries": [
+      { "id": 1, "title": "The Agony in the Garden", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+      { "id": 2, "title": "The Scourging at the Pillar", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+      { "id": 3, "title": "The Crowning with Thorns", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+      { "id": 4, "title": "The Carrying of the Cross", "prayers": ["[Hail Mary] x 10", "Glory Be"] },
+      { "id": 5, "title": "The Crucifixion and Death of Jesus", "prayers": ["[Hail Mary] x 10", "Glory Be"] }
+    ]
+  }
+  
